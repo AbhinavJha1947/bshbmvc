@@ -1,0 +1,272 @@
+﻿@model BiharStateHousingBoard.Models.HomeIndexPageModel
+
+@{
+    ViewData["Title"] = "AddEditHomeIndexPage";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+<div class="rightpart">
+    <div class="sechBx clearfix">
+        <div class="bretcrum">Dashboard</div>
+    </div>
+    <div class="dashBx">
+<form asp-action="AddEditHomeIndexPage" class="form-horizontal" enctype="multipart/form-data" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+        <label class="control-label">Home Index Page Title</label>
+        <input asp-for="pgTitle" placeholder="Page Title" class="form-control" />
+        <span asp-validation-for="pgTitle" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+        <label class="control-label">Title Description</label>
+        <textarea asp-for="hmInxTitleDescription" placeholder="Description" class="form-control" rows="4" cols="100"></textarea>
+        <span asp-validation-for="hmInxTitleDescription" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+        <label class="control-label">Title Description Read More Url</label>
+        <input asp-for="hmInxTitleReadMoreUrl" placeholder="Read More Url" class="form-control" />
+        <span asp-validation-for="hmInxTitleReadMoreUrl" class="text-danger"></span>
+        </div>
+    <div class="Edit-Img">
+
+        <label class="lblTxt">Home Index Page Title Image</label>
+        <p style="text-align:justify;">
+            <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxTitleImage" height="@Model.hmInxTitleImageHeight" width="@Model.hmInxTitleImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+            </font>
+        </p>
+        <div class="edit-icon">
+            <input type="file" name="TitleImage" />
+        </div>
+        @Html.ValidationMessageFor(m => m.hmInxTitleImage)
+    </div>
+        <div class="form-group">
+            <label class="control-label">hmInxTitleImageWidth</label>
+            <input asp-for="hmInxTitleImageWidth" placeholder="#4b564" class="form-control" />
+            <span asp-validation-for="hmInxTitleImageWidth" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label class="control-label">hmInxTitleImageHeight</label>
+            <input asp-for="hmInxTitleImageHeight" placeholder="#4b564" class="form-control" />
+            <span asp-validation-for="hmInxTitleImageHeight" class="text-danger"></span>
+        </div>
+    <div class="Edit-Img">
+    <label class="lblTxt">Prime Minister Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxPrimeMinisterImage" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="PMImage" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxPrimeMinisterImage)
+    <br />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Prime Minister Name</label>
+        <input asp-for="hmInxPrimeMinisterName" class="form-control" />
+        <span asp-validation-for="hmInxPrimeMinisterName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Prime Minister Designation</label>
+        <input asp-for="hmInxPrimeMinisterDesignation" class="form-control" />
+        <span asp-validation-for="hmInxPrimeMinisterDesignation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Prime Minister Place</label>
+        <input asp-for="hmInxPrimeMinisterPlace" class="form-control" />
+        <span asp-validation-for="hmInxPrimeMinisterPlace" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Prime Minister Portfolio Url</label>
+        <input asp-for="hmInxPrimeMinisterPortfolioUrl" class="form-control" />
+        <span asp-validation-for="hmInxPrimeMinisterPortfolioUrl" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Chief Minister Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxChiefMinisterImage" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="CMImage" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxChiefMinisterImage)
+    <br />
+    <div class="form-group">
+        <label class="control-label">Chief Minister Name</label>
+        <input asp-for="hmInxChiefMinisterName" class="form-control" />
+        <span asp-validation-for="hmInxChiefMinisterName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Chief Minister Designation</label>
+        <input asp-for="hmInxChiefMinisterDesignation" class="form-control" />
+        <span asp-validation-for="hmInxChiefMinisterDesignation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Chief MinisterPlace</label>
+        <input asp-for="hmInxChiefMinisterPlace" class="form-control" />
+        <span asp-validation-for="hmInxChiefMinisterPlace" class="text-danger"></span>
+    </div>
+
+
+    <label class="lblTxt">Home Index Minister Officer1 Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxMinisterOfficer1Image" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="Image1" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxMinisterOfficer1Image)
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer1 Name</label>
+        <input asp-for="hmInxMinisterOfficer1Name" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer1Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer1 Designation</label>
+        <input asp-for="hmInxMinisterOfficer1Designation" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer1Designation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer1 Place</label>
+        <input asp-for="hmInxMinisterOfficer1Place" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer1Place" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Home Index Minister Officer2 Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxMinisterOfficer2Image" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="Image2" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxMinisterOfficer2Image)
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer2 Name</label>
+        <input asp-for="hmInxMinisterOfficer2Name" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer2Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer2 Designation</label>
+        <input asp-for="hmInxMinisterOfficer2Designation" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer1Designation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer2 Place</label>
+        <input asp-for="hmInxMinisterOfficer2Place" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer2Place" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Home Index Minister Officer3 Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxMinisterOfficer3Image" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="Image3" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxMinisterOfficer3Image)
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer3 Name</label>
+        <input asp-for="hmInxMinisterOfficer3Name" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer3Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer3 Designation</label>
+        <input asp-for="hmInxMinisterOfficer3Designation" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer3Designation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer3 Place</label>
+        <input asp-for="hmInxMinisterOfficer3Place" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer3Place" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Home Index Minister Officer4 Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxMinisterOfficer4Image" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="Image4" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxMinisterOfficer4Image)
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer4 Name</label>
+        <input asp-for="hmInxMinisterOfficer4Name" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer4Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer4 Designation</label>
+        <input asp-for="hmInxMinisterOfficer4Designation" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer4Designation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer4 Place</label>
+        <input asp-for="hmInxMinisterOfficer4Place" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer4Place" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Home Index Minister Officer5 Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxMinisterOfficer5Image" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="Image5" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxMinisterOfficer5Image)
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer5 Name</label>
+        <input asp-for="hmInxMinisterOfficer5Name" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer5Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer5 Designation</label>
+        <input asp-for="hmInxMinisterOfficer5Designation" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer5Designation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer5 Place</label>
+        <input asp-for="hmInxMinisterOfficer5Place" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer5Place" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Home Index Minister Officer6 Image</label>
+    <p style="text-align:justify;">
+        <img alt="" src="/Uploads/HomeIndexImages/@Model.hmInxMinisterOfficer6Image" height="@Model.hmInxMinisterOfficerImageHeight" width="@Model.hmInxMinisterOfficerImageWidth" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+        </font>
+    </p>
+    <div class="edit-icon">
+        <input type="file" name="Image6" />
+    </div>
+    @Html.ValidationMessageFor(m => m.hmInxMinisterOfficer6Image)
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer6 Name</label>
+        <input asp-for="hmInxMinisterOfficer6Name" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer6Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer6 Designation</label>
+        <input asp-for="hmInxMinisterOfficer6Designation" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer6Designation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer6 Place</label>
+        <input asp-for="hmInxMinisterOfficer6Place" class="form-control" />
+        <span asp-validation-for="hmInxMinisterOfficer6Place" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer Image Height</label>
+        <input asp-for="hmInxMinisterOfficerImageHeight" class="form-control" placeholder="80" />
+        <span asp-validation-for="hmInxMinisterOfficerImageHeight" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Home Index Minister Officer Image Width</label>
+        <input asp-for="hmInxMinisterOfficerImageWidth" class="form-control" placeholder="200" />
+        <span asp-validation-for="hmInxMinisterOfficerImageWidth" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn bg-primary" />
+
+    </div>
+    @*}
+    }*@
+</form>
+</div>
+</div>

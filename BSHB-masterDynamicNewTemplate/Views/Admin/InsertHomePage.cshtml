@@ -1,0 +1,146 @@
+﻿@model BiharStateHousingBoard.Models.DynamicMasterPageModel
+@{
+    ViewData["Title"] = "InsertHomePage";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+<script>
+function readImageURL(controlID, imageID) 
+{
+    var ValidImage = 0;
+    var CheckFileType = checkFileExtension($(controlID).val());
+    if (CheckFileType == "png" || CheckFileType == "jpg" || CheckFileType == "jpeg" || CheckFileType == "gif") {
+        if (controlID.files && controlID.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $(imageID).attr('src', e.target.result);
+            };
+            reader.readAsDataURL(controlID.files[0]);
+        }
+        ValidImage = CalculateFileSize($(controlID));
+    }
+    else {
+        ValidImage = 1;
+        // alert('Invalid image format');
+    }
+
+    if (ValidImage == 1)
+        swal('', 'Invalid image format', 'error');
+    //  alert('Invalid image format');
+    if (ValidImage == 2)
+        swal('', 'Maximum size of uploaded content is 2 MB', 'error');
+    // alert('Please select an image of size < 4MB');
+}
+</script>
+<h1>Insert Header</h1>
+<hr />
+<div class="rightpart">
+    <div class="sechBx clearfix">
+        <div class="bretcrum">Dashboard</div>
+    </div>
+    <div class="dashBx">
+<form asp-action="InsertHomePage" class="form-horizontal" enctype="multipart/form-data" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+   @* @if (Model != null)
+    {
+        @foreach (var mastrpg in Model)
+        {*@
+    <div class="Edit-Img">
+        <label class="lblTxt">Logo</label>
+        <img id="logo" width=100 height=80 src="/@Model.logo" alt="LogoFogo" />
+        <br />
+        <div class="edit-icon">
+            <input type="file" name="Image1" />
+        </div>
+        @Html.ValidationMessageFor(m => m.logo)
+            </div>
+    <div class="form-group">
+        <label class="control-label">Header Back-ground Color HashCode</label>
+        <input asp-for="headerBkGrndClrHashCode" placeholder="#4b564" class="form-control" type="color" />
+        <span asp-validation-for="headerBkGrndClrHashCode" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Department name in English</label>
+        <input asp-for="DepartmentInEnglish" class="form-control" />
+        <span asp-validation-for="DepartmentInEnglish" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Font Size of Department name in English</label>
+        <input asp-for="DepartmentInEnglishFontSize" class="form-control" placeholder="20px" />
+        <span asp-validation-for="DepartmentInEnglishFontSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Department name in Hindi</label>
+        <input asp-for="DepartmentInHindi" class="form-control" />
+        <span asp-validation-for="DepartmentInHindi" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Font Size of Department name in Hindi</label>
+        <input asp-for="DepartmentInHindiFontSize" class="form-control" placeholder="20px" />
+        <span asp-validation-for="DepartmentInHindiFontSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Line Height of Department name in Hindi</label>
+        <input asp-for="DepartmentInHindiLineHeight" class="form-control" placeholder="40px" />
+        <span asp-validation-for="DepartmentInHindiLineHeight" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Department Divider Line Image</label>
+    <img id="deptdivline" width="100%" src="" alt="DepartmentDividerLineImage" /> 
+    <div class="edit-icon">
+        <input type="file" name="dvdrImage" />
+    </div>
+    @Html.ValidationMessageFor(m => m.DepartmentDividerLineImage)    
+    <div class="form-group">
+        <label class="control-label">Ministry name in English</label>
+        <input asp-for="MinistryNmInEnglish" class="form-control" />
+        <span asp-validation-for="MinistryNmInEnglish" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Font Size of Ministry name in English</label>
+        <input asp-for="MinistryNmInEnglishFontSize" class="form-control" placeholder="20px" />
+        <span asp-validation-for="MinistryNmInEnglishFontSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Ministry name in Hindi</label>
+        <input asp-for="MinistryNmInHindi" class="form-control" />
+        <span asp-validation-for="MinistryNmInHindi" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Font Size of Ministry name in Hindi</label>
+        <input asp-for="MinistryNmInHindiFontSize" class="form-control" placeholder="20px" />
+        <span asp-validation-for="MinistryNmInHindiFontSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Line Height of Ministry name in Hindi</label>
+        <input asp-for="MinistryNmInHindiLineHeight" class="form-control" placeholder="40px" />
+        <span asp-validation-for="MinistryNmInHindiLineHeight" class="text-danger"></span>
+    </div>
+    <label class="lblTxt">Ministry Divider Line Image</label>
+    <img id="deptdivline" width="100%" src="" alt="DepartmentDividerLineImage" />
+    <div class="edit-icon">
+        <input type="file" name="dvdrImageMinistry" />
+    </div>
+    @Html.ValidationMessageFor(m => m.MinistryDividerLineImage)
+    <div class="form-group">
+        <label class="control-label">Ministry Url</label>
+        <input asp-for="MinistryUrl" class="form-control" placeholder="40px" />
+        <span asp-validation-for="MinistryUrl" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Header Icon Height</label>
+        <input asp-for="HeaderIconHeight" class="form-control" placeholder="80" />
+        <span asp-validation-for="HeaderIconHeight" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Header Icon Width</label>
+        <input asp-for="HeaderIconWidth" class="form-control" placeholder="200" />
+        <span asp-validation-for="HeaderIconWidth" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn bg-primary" />
+
+    </div>
+    @*}
+    }*@
+</form> 
+</div>
+</div>

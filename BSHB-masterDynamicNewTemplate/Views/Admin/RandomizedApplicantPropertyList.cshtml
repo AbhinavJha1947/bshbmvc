@@ -1,0 +1,171 @@
+﻿@model BiharStateHousingBoard.Models.AllotmentViewModel
+@{
+    ViewData["Title"] = "Allotment";
+    Layout = null;
+    var allotmentdata = Model.allotmentlstmdl.ToList();
+
+    var propdata = Model.propertylstmdl.ToList();
+    var propcnt = @propdata.Count;
+
+    var applctdata = Model.applicantlstmdl.ToList();
+    var applctcnt = @applctdata.Count;
+    var rowindx = 0;
+    var allotmtrowindx = 0;
+    var rowid = string.Empty;
+}
+
+<h1>Allotment</h1>
+<center><h1>Economically Weaker Section</h1></center>
+<h1>Applicants____________________Properties</h1>
+<h1>@applctcnt __________________@propcnt</h1>
+<h1>                GO              </h1>
+<div class="rightpart">
+    <div class="sechBx clearfix">
+        <div class="bretcrum">Dashboard</div>
+    </div>
+    <div class="dashBx">
+
+        <div class="form-group">
+            <input type="submit" value="GO" class="btn bg-primary" />
+        </div>
+
+    </div>
+    @using (Html.BeginForm("ApplicantPropertyList", "Admin", FormMethod.Post))
+    {
+        <div class="dashBx">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-3 col-sm-5 about">
+                            <div class="footer-col-inner">
+                                <h3>Applicant List</h3>
+                                <table id="newMenuItem" class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <td colspan="1">Sl.No.</td>
+                                            <td colspan="3">Name</td>
+                                            <td colspan="4"></td>
+                                            <td colspan="3">Sl.No.</td>
+                                            <td colspan="1">Properties</td>
+                                        </tr>
+                                    </thead>
+                                    @foreach (var item in applctdata)
+                                    {
+                                        rowindx = rowindx + 1;
+                                        rowid = "tablerow" + rowindx;
+                                        var proptydata = Model.propertylstmdl.ToList();
+
+                                        <tr id=@rowid>
+                                            <td colspan="1">
+                                                <div class="editor-field">
+                                                    @rowindx
+                                                </div>
+                                            </td>
+                                            <td colspan="3">
+                                                <div class="editor-field">
+                                                   @item.ApplicantName
+                                                </div>
+                                            </td>
+                                            <td colspan="4">
+                                                <div class="editor-field">                                                    
+                                                </div>
+                                            </td>
+                                            <td colspan="3">
+                                                <div class="editor-field">
+                                                    @rowindx
+                                                </div>
+                                            </td>
+                                            <td colspan="1">
+                                                <div class="editor-field">
+                                                    @{
+                                                    try
+                                                    {
+                                                    @proptydata.First(x => x.PropertyId == @rowindx).Property;
+                                                    }
+                                                    catch{}
+                                                    }
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                    
+                                </table>
+                                <table>
+                                    <tr>
+                                        <td>  <input id="save" type="submit" value="Randomize" class="btn bg-primary" /></td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="dashBx">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-3 col-sm-5 about">
+                        <div class="footer-col-inner">
+                            <h3>Economically Weaker Section</h3>
+                            <table id="newMenuItem" class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <td colspan="1">Sl.No.</td>
+                                        <td colspan="1">Reg.No.</td>
+                                        <td colspan="4">Name</td>
+                                        <td colspan="2">Category</td>
+                                        <td colspan="2">Property</td>
+                                        <td colspan="2">Property Type</td>
+                                    </tr>
+                                </thead>
+                                @foreach (var item in allotmentdata)
+                                {
+                                    allotmtrowindx = allotmtrowindx + 1;
+                                    rowid = "tablerow" + allotmtrowindx;
+
+                                    <tr id=@rowid>
+                                        <td colspan="1">
+                                            <div class="editor-field">
+                                                @allotmtrowindx
+                                            </div>
+                                        </td>
+                                        <td colspan="1">
+                                            <div class="editor-field">
+                                                @item.RegistrationNo
+                                            </div>
+                                        </td>
+                                        <td colspan="4">
+                                            <div class="editor-field">
+                                                @item.ApplicantName
+                                            </div>
+                                        </td>
+                                        <td colspan="2">
+                                            <div class="editor-field">
+                                                EWS
+                                            </div>
+                                        </td>
+                                        <td colspan="2">
+                                            <div class="editor-field">
+                                                @item.Property
+                                            </div>
+                                        </td>
+                                        <td colspan="2">
+                                            <div class="editor-field">
+                                                MIG
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

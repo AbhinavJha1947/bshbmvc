@@ -1,0 +1,68 @@
+﻿@model BiharStateHousingBoard.Models.LoginViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+    BiharStateHousingBoard.Persistance.BSHBPersistance BshbPers = new BiharStateHousingBoard.Persistance.BSHBPersistance();
+    IEnumerable<BiharStateHousingBoard.Models.Roles> AllRoles = BshbPers.GetAllRole();
+}
+<html>
+<head>
+    <title>Online Shopping</title>
+    <link href="/CSS/admin_stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <style>
+        .AdminLogin {
+            margin: 7% 30%;
+            padding: 6% 10%;
+            background: rgb(236, 233, 233);
+        }
+
+        .dashinp {
+            margin-bottom: 10px;
+        }
+
+        .SignIn {
+            text-align: center;
+            padding: 5PX 30PX;
+            background-color: rgb(30, 95, 209);
+            color: #FFF;
+            margin: 10% 0 10% 30%;
+        }
+
+        .forgot {
+            margin-top: 8%;
+            font-size: 14px;
+        }
+    </style>
+    <div class="AdminLogin">
+        <form asp-action="Admin" class="form-horizontal" method="post">
+            @Html.AntiForgeryToken()
+            <h1 style="text-align: center; margin-bottom: 20px">Admin Login</h1>
+            <div class="loginDetail">
+                <label class="lblTxt">Role</label>
+                @Html.DropDownListFor(m => m.UserRole, new SelectList(AllRoles, "Id", "UserRole"), "Select Role", new { @class = "dashInp", @id = "Id" })
+                @Html.ValidationMessageFor(m => m.UserRole)
+
+                @Html.TextBoxFor(m => m.UserId, new { @class = "dashinp", @placeholder = "Username" })
+                @Html.ValidationMessageFor(m => m.UserId)
+
+                @Html.PasswordFor(m => m.Password, new { @type = "password", @class = "dashinp", @placeholder = "Password" })
+                @Html.ValidationMessageFor(m => m.Password)
+
+                <label style="display: none;">@Html.RadioButton("UserType", 1, new { @checked = "checked", }) Admin</label>
+
+                <div class="forgot clearfix">
+                    <a href="/Account/ForgotPassword" class="fgt fr">Forgot Password?</a>
+                </div>
+                <input type="submit" value="Sign In" class="SignIn">
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+</body>
+</html>

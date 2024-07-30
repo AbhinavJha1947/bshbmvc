@@ -1,0 +1,332 @@
+﻿@model BiharStateHousingBoard.Models.MasterPgViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var data = Model.prssrel.OrderBy(o => o.DisplayOrder).ToList();
+    //int cnt = int.Parse(TempData["cnttimes"].ToString());
+    //TempData.Keep("cnttimes");
+}
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />  <title>Index</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+@*<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+*@
+<!-- Import jquery cdn -->
+@*<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">
+
+</script>*@
+@*<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous">
+
+</script>*@
+
+<body>
+    <!-- Modal -->
+    <div class="container mt-2">
+        <!-- Button to invoke the modal -->
+     
+        <div class="modal fade" id="exampleModal"
+         tabindex="-1"
+         aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <!-- Data passed is displayed
+                        in this part of the
+                        modal body -->
+                    <h6 id="modal_body"></h6>
+                    <button type="button"
+                            class="btn btn-success btn-sm"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                            id="submit">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    <div class="wrapper" id="skipCont"></div>
+
+    <section id="fontSize" class="wrapper body-wrapper ">
+        <h2 style="display: none;">Body</h2>
+        <div class="bg-wrapper top-bg-wrapper gray-bg padding-top-bott">
+            <div class="container common-container four_content body-container top-body-container padding-top-bott2">
+                @if (Model != null)
+                {
+                    @foreach (var hmIndxpg in Model.hmindxpg)
+                    {
+                        <div class="minister clearfix">
+                            <div class="minister-box clearfix scroll">
+                                <div class="minister-sub">
+                                    <div class="minister-image"><img width=@hmIndxpg.hmInxTitleImageWidth height=@hmIndxpg.hmInxTitleImageHeight src="/Uploads/HomeIndexImages/@hmIndxpg.hmInxChiefMinisterImage" alt="Hon’ble Chief Minister" title="Ministry/Department,Minister Name"></div>
+                                    <b>@hmIndxpg.hmInxChiefMinisterName</b>
+                                    <div class="min-info">
+                                        <a href="#" title="Minister officer">@hmIndxpg.hmInxChiefMinisterDesignation</a>
+                                    </div>                                   
+                                </div>
+                                <div class="minister-sub">
+                                    <div class="minister-image"><img width=@hmIndxpg.hmInxTitleImageWidth height=@hmIndxpg.hmInxTitleImageHeight src="/Uploads/HomeIndexImages/@hmIndxpg.hmInxMinisterOfficer1Image" alt="Hon’ble Officer" title="Ministry/Department,Minister Name"></div>
+                                    <b>@hmIndxpg.hmInxMinisterOfficer1Name</b>
+                                    <div class="min-info">
+                                        <a href="#" title="Minister officer">@hmIndxpg.hmInxMinisterOfficer1Designation</a>
+                                    </div> 
+                                    
+                                </div>
+                                <div class="minister-sub">
+                                    <div class="minister-image"><img width=@hmIndxpg.hmInxTitleImageWidth height=@hmIndxpg.hmInxTitleImageHeight src="/Uploads/HomeIndexImages/@hmIndxpg.hmInxMinisterOfficer2Image" alt="Hon’ble Officer" title="Ministry/Department,Minister Name"></div>
+                                    <b>@hmIndxpg.hmInxMinisterOfficer2Name</b>                                       
+                                        <div class="min-info">                               
+                                <a href="#" title="Minister officer">@hmIndxpg.hmInxMinisterOfficer2Designation</a>
+                                </div>
+                                                                       
+                                </div>
+                                <div class="minister-sub">
+                                    <div class="minister-image"><img width=@hmIndxpg.hmInxTitleImageWidth height=@hmIndxpg.hmInxTitleImageHeight src="/Uploads/HomeIndexImages/@hmIndxpg.hmInxMinisterOfficer3Image" alt="Hon’ble Officer" title="Ministry/Department,Minister Name"></div>
+                                    <b>@hmIndxpg.hmInxMinisterOfficer3Name</b>
+                                    <div class="min-info">
+                                        <a href="#" title="Minister officer">@hmIndxpg.hmInxMinisterOfficer3Designation</a>
+                                    </div>   <b><input value="@hmIndxpg.hmInxMinisterOfficer3Name" style="visibility:hidden" /></b>
+                                   
+                                </div>
+                                <div class="minister-sub">
+                                    <div class="minister-image"><img width=@hmIndxpg.hmInxTitleImageWidth height=@hmIndxpg.hmInxTitleImageHeight src="/Uploads/HomeIndexImages/@hmIndxpg.hmInxMinisterOfficer4Image" alt="Hon’ble Officer" title="Ministry/Department, Minister Name"></div>
+                                    <b>@hmIndxpg.hmInxMinisterOfficer4Name</b>
+                                    <div class="min-info">
+                                        <a href="#" title="Minister officer">@hmIndxpg.hmInxMinisterOfficer4Designation</a>
+                                    </div>
+                                    
+                                </div>
+                                @if (@hmIndxpg.hmInxMinisterOfficer5Name != "")
+                                {
+                                    <div class="minister-sub">
+                                        <div class="minister-image"><img @hmIndxpg.hmInxTitleImageWidth height=@hmIndxpg.hmInxTitleImageHeight src="/Uploads/HomeIndexImages/@hmIndxpg.hmInxMinisterOfficer5Image" alt="Hon’ble Officer" title="Ministry/Department, Minister Name"></div>
+                                        <b>@hmIndxpg.hmInxMinisterOfficer5Name</b>
+                                        <div class="min-info">
+                                            <a href="#" title="Minister officer">@hmIndxpg.hmInxMinisterOfficer5Designation</a>
+                                        </div>                                       
+                                    </div>
+                                    
+                                }
+                                @if (@hmIndxpg.hmInxMinisterOfficer6Name != "")
+                                {
+                                    <div class="minister-sub">
+                                        <div class="minister-image"><img @hmIndxpg.hmInxTitleImageWidth height=@hmIndxpg.hmInxTitleImageHeight src="Uploads\HomeIndexImages/@hmIndxpg.hmInxMinisterOfficer6Image" alt="Hon’ble Officer" title="Ministry/Department, Minister Name"> </div>
+                                        <b>@hmIndxpg.hmInxMinisterOfficer6Name</b>
+                                        <div class="min-info">
+                                            <a href="#" title="Minister officer">@hmIndxpg.hmInxMinisterOfficer6Designation</a>
+                                        </div>                                        
+                                   
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        @if (Model != null)
+                        {
+                            @foreach (var mastrpg in Model.mstrpg)
+                            {
+                                <div class="banner-content-wrapper">
+                                    <h2>Welcome to the Ministry of <span>@mastrpg.MinistryNmInEnglish / @mastrpg.DepartmentInEnglish</span></h2>
+                                    <p class="banner-title-tag-line">Welcome to the website of @mastrpg.MinistryNmInEnglish/@mastrpg.DepartmentInEnglish, Government of India.</p>
+                                    <p class="banner-content">
+                                        @hmIndxpg.hmInxTitleDescription
+                                    </p>
+                                    <a href=@hmIndxpg.hmInxTitleReadMoreUrl title="Click here to know more">Read more ></a>
+                                </div>
+                            }
+                        }
+                    }
+                }
+            </div>
+        </div>
+        <div class="wrapper home-banner">
+            <div class="container common-container four_content banner-container body-container top-body-container">
+
+                <div class="left-block">
+                    <div class="left-col-2">
+                        <div class="page-tab clearfix">
+                            <div class="page-tab-res clearfix">
+                                <div id="parentHorizontalTab">
+                                    <ul class="resp-tabs-list hor_1">
+                                        <li><a href="#" id="tab-list-1"> Whats's New</a></li>
+                                        <li><a href="#">Press Release</a></li>
+                                    </ul>
+                                    <div class="resp-tabs-container hor_1">
+                                        <div class="clearfix" id="hor_1_tab_item-0">
+                                            <div class="content-wrapper">
+                                                <p class="text-slide pause" onclick="changeClass()"></p>
+                                                <div id="newsscrolldiv" class="scroll-text scroll scroll-left">
+                                                    @if (Model != null)
+                                                    {
+                                                        var newscnt = 1;
+
+                                                        <ul class="list">
+                                                            @*@foreach (var mstrpgpr in Model.prssrel)
+                                                            {*@
+                                                                @foreach (var mstrpgpr in data)
+                                                                {
+                                                                    
+                                                               @* var popupid = "myPopup" + @newscnt;*@
+                                                                var prdtlid = "prdetls" + @newscnt;
+                                                                <li>
+                                                                    <div class="list-content" style="text-anchor:start">
+                                                                        Heading:@mstrpgpr.Heading
+                                                                        <div><br /></div>
+                                                                        Dated:@mstrpgpr.ReleaseDate
+                                                                            <div><br /></div>
+                                                                            <button id="@prdtlid" data-value="@mstrpgpr.Details" class="select_press_release btn btn-primary btn-sm" data-toggle="modal"
+                                                                                    data-target="#exampleModal">
+                                                                                View Details
+                                                                            </button>
+                                                                    </div>
+                                                                
+                                                                </li>
+                                                                newscnt++;
+                                                            }
+                                                        </ul>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-col-2">
+                        <h2>Tenders</h2>
+                        <p class="text-slide1 pause" onclick="changeClass1()"></p>
+                        <div class="scroll-text-1 scroll-left">
+                            <ul class="list">
+                                <li>
+                                    <div class="date"><span>DD</span><em>MM YYYY</em></div>
+                                    <div class="list-content">Description of Tenders 1 goes here - File type (size).</div>
+                                </li>
+                                <li>
+                                    <div class="date"><span>DD</span><em>MM YYYY</em></div>
+                                    <div class="list-content">Description of Tenders 2 goes here - File type (size).</div>
+                                </li>
+                                <li>
+                                    <div class="date"><span>DD</span><em>MM YYYY</em></div>
+                                    <div class="list-content">Description of Tenders 3 goes here - File type (size).</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="view-footer"><a href="/mpa/media/whats-new" title="Know More About Tenders"><span>View all Tenders ></span></a></div>
+                    </div>
+                </div>
+                <div class="banner-right-wrapper">
+                    <div class="banner-box-wrapper">
+                        <div class="banner-box banner-box-1">
+                            <div class="banner-box-content">
+                                <h2>External Link 1</h2>
+                                <a href="#" title="External link that opens in new tab" target="_blank">
+                                    <p>Sub-heading</p>
+                                    <i class="fa fa-external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="banner-box banner-box-2">
+                            <div class="banner-box-content">
+                                <h2>External Link 2</h2>
+                                <a href="#" title="External link that opens in new tab" target="_blank">
+                                    <p>Sub-heading</p>
+                                    <i class="fa fa-external-link"> </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="banner-box banner-box-3">
+                            <div class="banner-box-content">
+                                <h2>External Link 3</h2>
+                                <a href="#" title="External link that opens in new tab" target="_blank">
+                                    <p>Sub-heading</p>
+                                    <i class="fa fa-external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <div class="wrapper home-btm-slider">
+            <div class="container common-container four_content gallery-container">
+                <div class="gallery-area clearfix">
+                    <div class="gallery-heading">
+                        <h3>Photo Gallery</h3>
+                        <a class="bttn-more bttn-view" href="/ManageAlbums/Index" title="View all Photo Gallery"><span>View All</span></a>
+                    </div>
+                    <div class="gallery-holder">
+                        <div id="galleryCarousel" class="flexslider">
+                            @if (Model != null)
+                            {
+                            
+                            <ul class="slides" src="" alt="">
+                                @foreach (var photoalbumimage in Model.photoalnmlstmdl)
+                                {
+                                    @*if (cnt%2!=0)
+                                    {*@
+                                        <li><img id="@photoalbumimage.ImagePath" class="galimage" alt="" src="~/Uploads/PhotoAlbum/@photoalbumimage.ImagePath" onError="this.onerror=null;this.src=''" /></li>
+                                   
+                                }
+                                </ul>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-right">
+                    <div class="video-heading">
+                        <h3>Video Gallery</h3>
+                        <a class="bttn-more bttn-view" href="#" title="View all Video Gallery"><span>View All</span></a>
+                    </div>
+                    <div class="video-wrapper">
+                        <video src="#" poster="theme/images/" title="The Union Minister for Railways and Coal, Shri Piyush Goyal addressing a press conference on Neyveli Lignite Corporation.">
+                            <span>Your browser does not support HTML5 video.</span>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/.body-wrapper-->
+    <!--/.banner-wrapper-->
+    <!--//wrapper-->
+    <div id="divPartial">
+    </div>
+</body>
+
+<script>
+
+    //const images = document.querySelectorAll("img");
+    //function fixBrokenImage(element) {
+    //    alert('hi');
+    //    element.onerror = '';
+    //    element.src = '';
+    //    element.alt = 'image not found'
+    //}
+    //images.forEach((image) => {
+    //    let imgsrc = image.getAttribute("src");
+    //    if (imgsrc === "unknown") {
+    //        image.src = "";
+    //    }
+    //});
+
+    //    $(document).ready(function () {
+    //        //.flex - control - nav:after {
+    //        //content: url("");
+    //        //}
+    //    $('.flex-control-nav'):after {
+    //        alert('in');
+    //        $(this).find('img').attr('src', '');
+    //        alert('done');
+    //    }
+    //});
+       
+</script>

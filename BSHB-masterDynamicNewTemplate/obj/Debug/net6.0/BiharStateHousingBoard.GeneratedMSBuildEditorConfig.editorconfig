@@ -1,0 +1,159 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BiharStateHousingBoard
+build_property.RootNamespace = BiharStateHousingBoard
+build_property.ProjectDir = C:\Users\bshbe\Downloads\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\BSHB-masterDynamicNewTemplate\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\bshbe\Downloads\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\BSHB-masterDynamicNewTemplate
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/AboutUs/MDMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xNRE1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Account/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddEditFooterContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRWRpdEZvb3RlckNvbnRhY3RVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddEditFooterHotLinks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRWRpdEZvb3RlckhvdExpbmtzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddEditFooterMap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRWRpdEZvb3Rlck1hcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddEditHomeBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRWRpdEhvbWVCYW5uZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddEditHomeIndexPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRWRpdEhvbWVJbmRleFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddEditMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRWRpdE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddEditPressRelease.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRWRpdFByZXNzUmVsZWFzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/AddPressRelease.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUHJlc3NSZWxlYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/Allotment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsb3RtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/ApplicantPropertyList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwbGljYW50UHJvcGVydHlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/InsertHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5zZXJ0SG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/ManagePhotoAlbums.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlUGhvdG9BbGJ1bXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/MasterPageDetailView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFzdGVyUGFnZURldGFpbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/RandomizedApplicantPropertyList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmFuZG9taXplZEFwcGxpY2FudFByb3BlcnR5TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/_AdminMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX0FkbWluTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Admin/_MasterPageDetailView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX01hc3RlclBhZ2VEZXRhaWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/ContactUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/ManageAlbums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlQWxidW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Shared/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Shared/_InnerPageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Jbm5lclBhZ2VMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Shared/_MasterPageDetailView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYXN0ZXJQYWdlRGV0YWlsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Shared/_PhotoGalleryLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QaG90b0dhbGxlcnlMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bshbe/Downloads/BSHB-masterDynamicNewTemplate-20240730T104549Z-001/BSHB-masterDynamicNewTemplate/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x4duohkqmb

@@ -1,0 +1,61 @@
+﻿@model BiharStateHousingBoard.Models.FooterContactUsModel
+
+@{
+    ViewData["Title"] = "AddEditFooterContactUs";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+
+<h1>AddEdit Footer Contact Us</h1>
+<div class="rightpart">
+    <div class="sechBx clearfix">
+        <div class="bretcrum">Dashboard</div>
+    </div>
+    <div class="dashBx">
+<form asp-action="AddEditFooterContactUs" class="form-horizontal" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label class="control-label">Address line1</label>
+        <input asp-for="addressline1" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="addressline1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Address line2</label>
+        <input asp-for="addressline2" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="addressline2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Address line3</label>
+        <input asp-for="addressline3" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="addressline3" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Address line4</label>
+        <input asp-for="addressline4" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="addressline4" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Address line5</label>
+        <input asp-for="Pincode" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="Pincode" class="text-danger"></span>
+    </div>    
+    <div class="form-group">
+        <label class="control-label">Mobile1</label>
+        <input asp-for="mobile1" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="mobile1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Mobile2</label>
+        <input asp-for="mobile2" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="mobile2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label">Email address</label>
+        <input asp-for="emailaddress" placeholder="#4b564" class="form-control" />
+        <span asp-validation-for="emailaddress" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn bg-primary" />
+    </div>
+</form>
+</div>
+</div>

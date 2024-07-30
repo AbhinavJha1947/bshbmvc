@@ -1,0 +1,1705 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BiharStateHousingBoard.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BiharStateHousingBoard.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\1.jpg",
+      "PackagePath": "staticwebassets\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\1_177by90pixel.jpg",
+      "PackagePath": "staticwebassets\\1_177by90pixel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\2.jpg",
+      "PackagePath": "staticwebassets\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\3.png",
+      "PackagePath": "staticwebassets\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\4.jpeg",
+      "PackagePath": "staticwebassets\\4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\5.jpg",
+      "PackagePath": "staticwebassets\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\6.jpg",
+      "PackagePath": "staticwebassets\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\7news.jpeg",
+      "PackagePath": "staticwebassets\\7news.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\7news_177by90pixel.jpeg",
+      "PackagePath": "staticwebassets\\7news_177by90pixel.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Grievance.png",
+      "PackagePath": "staticwebassets\\Grievance.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\SmallerSlider.png",
+      "PackagePath": "staticwebassets\\SmallerSlider.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\1.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\3.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\4.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\banner1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\banner2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\banner3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\banner4.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\banner4.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\banner5.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\banner5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\banner7.webp",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\banner7.webp"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\banner95.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\banner95.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\enhancedimage.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\enhancedimage.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\new5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\new5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\newpic1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\newpic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Banner\\pic1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Banner\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\CHAITANYAPRASAD2.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\CHAITANYAPRASAD2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\Grievance.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\Grievance.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\SmallSlider\\SmallerSlider.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\SmallSlider\\SmallerSlider.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\SmallSlider\\nameedit.gif",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\SmallSlider\\nameedit.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\SmallSlider\\ss2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\SmallSlider\\ss2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\VinitPhoto.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\VinitPhoto.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\alloteeday.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\alloteeday.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\anandKishore.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\anandKishore.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\anandk.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\anandk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\anandkishore7.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\anandkishore7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\anandkishore7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\anandkishore7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\andandKishore.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\andandKishore.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\chaitanyaPrasad.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\chaitanyaPrasad.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\chaitanyaPrasadjpg.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\chaitanyaPrasadjpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\chaitanyaPrasadold.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\chaitanyaPrasadold.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\cmnitishkumar.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\cmnitishkumar.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\data-gov.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\data-gov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\departname_divider_line.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\departname_divider_line.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\departname_divider_line_jpeg.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\departname_divider_line_jpeg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\departname_divider_line_jpeg_original.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\departname_divider_line_jpeg_original.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\divlineumage.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\divlineumage.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\lease.gif",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\lease.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\lease_deed.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\lease_deed.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\mylogo.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\mylogo.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\mynewlogo.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\mynewlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\nameedit.gif",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\nameedit.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\newsecretary.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\newsecretary.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\nitinnabin.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\nitinnabin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\noc.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\noc.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\prime-minister.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\prime-minister.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\rahulBarman.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\rahulBarman.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\rajivKrSrivastava.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\rajivKrSrivastava.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\rburmanjpg.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\rburmanjpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\retrewal_sytem.png",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\retrewal_sytem.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\rksjpg.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\rksjpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\HomeIndexImages\\testbook.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\HomeIndexImages\\testbook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\11765133772583910667.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\11765133772583910667.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\banner1-7.png",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\banner1-7.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\banner4.png",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\banner4.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\banner5.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\banner5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\banner6.png",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\banner6.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\banner93.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\banner93.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\PhotoAlbum\\banner94.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\PhotoAlbum\\banner94.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\Uploads\\new-gif.gif",
+      "PackagePath": "staticwebassets\\Uploads\\new-gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\VinitPhoto.png",
+      "PackagePath": "staticwebassets\\VinitPhoto.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\alloteeday.png",
+      "PackagePath": "staticwebassets\\alloteeday.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\base-responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\base-responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\base.css",
+      "PackagePath": "staticwebassets\\assets\\css\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\change.css",
+      "PackagePath": "staticwebassets\\assets\\css\\change.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\elements.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elements.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\font.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\grid.css",
+      "PackagePath": "staticwebassets\\assets\\css\\grid.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\megamenu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\megamenu.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\modules.css",
+      "PackagePath": "staticwebassets\\assets\\css\\modules.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\css\\print.css",
+      "PackagePath": "staticwebassets\\assets\\css\\print.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\1YwB1sO8YE1Lyjf12WNiUA.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\1YwB1sO8YE1Lyjf12WNiUA.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\9k-RPmcnxYEPm8CNFsH2gg.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\9k-RPmcnxYEPm8CNFsH2gg.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\BVtM30trf7q_jfqYeHfjtA.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\BVtM30trf7q_jfqYeHfjtA.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\EsvMC5un3kjyUhB9ZEPPwg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\EsvMC5un3kjyUhB9ZEPPwg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\H2DMvhDLycM56KNuAtbJYA.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\H2DMvhDLycM56KNuAtbJYA.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\KT3KS9Aol4WfR6Vas8kNcg.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\KT3KS9Aol4WfR6Vas8kNcg.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\tI4j516nok_GrVf4dhunkg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\tI4j516nok_GrVf4dhunkg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGHZhYM0_6AejPZE-OqA592o.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGHZhYM0_6AejPZE-OqA592o.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGHiec-hVyr2k4iOzEQsW1iE.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGHiec-hVyr2k4iOzEQsW1iE.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\fonts\\wkfQbvfT_02e2IWO3yYueQ.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\wkfQbvfT_02e2IWO3yYueQ.woff"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\after-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\after-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\after-bottom-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\after-bottom-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\blt.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blt.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\apf-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\apf-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\apf.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\apf.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\data-gov-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\data-gov-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\data-gov.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\data-gov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\digital-india-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\digital-india-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\digital-india.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\digital-india.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\e-gazette.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\e-gazette.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\eci.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\eci.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\ganhri-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\ganhri-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\ganhri.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\ganhri.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\goidirectory.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\goidirectory.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\incredible-india-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\incredible-india-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\incredible-india.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\incredible-india.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\india-gov-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\india-gov-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\india-gov.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\india-gov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\makeinindia-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\makeinindia-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\makeinindia.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\makeinindia.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\mygov-c.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\mygov-c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\mygov.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\mygov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\myvisit-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\myvisit-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\pg-portal.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\pg-portal.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\pmnrf-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\pmnrf-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\pmnrf.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\pmnrf.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\unhr-c.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\unhr-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\carousel\\unhr.png",
+      "PackagePath": "staticwebassets\\assets\\images\\carousel\\unhr.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\emblem-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\emblem-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\emblem-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\emblem-light.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\favicon\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\favicon\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\flag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\footer-bottom-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\footer-bottom-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\footer-top-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\footer-top-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\goi-search-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\goi-search-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-accessibility-h.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-accessibility-h.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-accessibility-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-accessibility-light.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-accessibility-y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-accessibility-y.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-accessibility.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-accessibility.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-bullete8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-bullete8.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-facebook.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-link-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-link-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-link-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-link-light.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-link.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-link.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-login-y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-login-y.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-login.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-login.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-search.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-search.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-site-search-h.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-site-search-h.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-site-search-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-site-search-light.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-site-search-y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-site-search-y.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-site-search.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-site-search.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-sitemap-h.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-sitemap-h.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-sitemap-y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-sitemap-y.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-sitemap.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-sitemap.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-skip-h.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-skip-h.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-skip-y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-skip-y.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-skip.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-skip.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-social-h.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-social-h.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-social-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-social-light.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-social-y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-social-y.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-social.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-social.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-twitter.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\ico-youtube.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ico-youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\icon-home.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-home.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\paragraph-img\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\paragraph-img\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\paragraph-img\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\paragraph-img\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\sprite1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sprite1.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\swach-bharat-high-contrast.png",
+      "PackagePath": "staticwebassets\\assets\\images\\swach-bharat-high-contrast.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\swach-bharat-y.png",
+      "PackagePath": "staticwebassets\\assets\\images\\swach-bharat-y.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\swach-bharat.png",
+      "PackagePath": "staticwebassets\\assets\\images\\swach-bharat.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\toggle-bar-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\toggle-bar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\toggle-bar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\toggle-bar.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\images\\whitearrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\whitearrow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\font-size.js",
+      "PackagePath": "staticwebassets\\assets\\js\\font-size.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\framework.js",
+      "PackagePath": "staticwebassets\\assets\\js\\framework.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\assets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\jquery-accessibleMegaMenu.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-accessibleMegaMenu.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\jquery.flexslider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\megamenu-old.js",
+      "PackagePath": "staticwebassets\\assets\\js\\megamenu-old.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\megamenu.js",
+      "PackagePath": "staticwebassets\\assets\\js\\megamenu.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\respond.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\respond.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\swithcer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swithcer.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\assets\\js\\two.js",
+      "PackagePath": "staticwebassets\\assets\\js\\two.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\admin_stylesheet.css",
+      "PackagePath": "staticwebassets\\css\\admin_stylesheet.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\flexslider.css",
+      "PackagePath": "staticwebassets\\css\\flexslider.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\jqx.base.css",
+      "PackagePath": "staticwebassets\\css\\jqx.base.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\data-gov.png",
+      "PackagePath": "staticwebassets\\data-gov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\departname_divider_line.png",
+      "PackagePath": "staticwebassets\\departname_divider_line.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\departname_divider_line1.png",
+      "PackagePath": "staticwebassets\\departname_divider_line1.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\departname_divider_line1_gif.gif",
+      "PackagePath": "staticwebassets\\departname_divider_line1_gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\digital-india.png",
+      "PackagePath": "staticwebassets\\digital-india.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\divlineumage.jpg",
+      "PackagePath": "staticwebassets\\divlineumage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\divlineumage.png",
+      "PackagePath": "staticwebassets\\divlineumage.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\enhancedimage.jpeg",
+      "PackagePath": "staticwebassets\\enhancedimage.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\facebook-circle.png",
+      "PackagePath": "staticwebassets\\facebook-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\goidirectory.png",
+      "PackagePath": "staticwebassets\\goidirectory.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\gplus-circle.png",
+      "PackagePath": "staticwebassets\\gplus-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\india-gov.png",
+      "PackagePath": "staticwebassets\\india-gov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\js\\bootstrap-hover-dropdown.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-hover-dropdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\js\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\js\\jquery.bootstrap.newsbox.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.bootstrap.newsbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lease.gif",
+      "PackagePath": "staticwebassets\\lease.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lease_deed.png",
+      "PackagePath": "staticwebassets\\lease_deed.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\lib\\mylogo.png",
+      "PackagePath": "staticwebassets\\lib\\mylogo.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\linkedin-circle.png",
+      "PackagePath": "staticwebassets\\linkedin-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\makeinindia.png",
+      "PackagePath": "staticwebassets\\makeinindia.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\mygov.png",
+      "PackagePath": "staticwebassets\\mygov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\mylogo.png",
+      "PackagePath": "staticwebassets\\mylogo.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\mynewlogo.png",
+      "PackagePath": "staticwebassets\\mynewlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\nameedit.gif",
+      "PackagePath": "staticwebassets\\nameedit.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\new-gif.gif",
+      "PackagePath": "staticwebassets\\new-gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\new.gif",
+      "PackagePath": "staticwebassets\\new.gif"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\noc.png",
+      "PackagePath": "staticwebassets\\noc.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\pin-circle.png",
+      "PackagePath": "staticwebassets\\pin-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\prime-minister.jpg",
+      "PackagePath": "staticwebassets\\prime-minister.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\retrewal_sytem.png",
+      "PackagePath": "staticwebassets\\retrewal_sytem.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\testbook.jpg",
+      "PackagePath": "staticwebassets\\testbook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\css\\desktop.ini",
+      "PackagePath": "staticwebassets\\theme\\css\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\css\\ma5gallery.css",
+      "PackagePath": "staticwebassets\\theme\\css\\ma5gallery.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\css\\no-js.css",
+      "PackagePath": "staticwebassets\\theme\\css\\no-js.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\css\\print.css",
+      "PackagePath": "staticwebassets\\theme\\css\\print.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\css\\site-change.css",
+      "PackagePath": "staticwebassets\\theme\\css\\site-change.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\css\\site-responsive.css",
+      "PackagePath": "staticwebassets\\theme\\css\\site-responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\css\\site.css",
+      "PackagePath": "staticwebassets\\theme\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\desktop.ini",
+      "PackagePath": "staticwebassets\\theme\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\apf-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\apf-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\apf.png",
+      "PackagePath": "staticwebassets\\theme\\images\\apf.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\theme\\images\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\banner\\inner-banner.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\banner\\inner-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\banner\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\banner\\slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\blt-bottom.png",
+      "PackagePath": "staticwebassets\\theme\\images\\blt-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\blt-doc.png",
+      "PackagePath": "staticwebassets\\theme\\images\\blt-doc.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\blt-green.png",
+      "PackagePath": "staticwebassets\\theme\\images\\blt-green.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\blt-link-blue.png",
+      "PackagePath": "staticwebassets\\theme\\images\\blt-link-blue.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\blt-link.png",
+      "PackagePath": "staticwebassets\\theme\\images\\blt-link.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\blt-order.png",
+      "PackagePath": "staticwebassets\\theme\\images\\blt-order.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\blt_arrow.png",
+      "PackagePath": "staticwebassets\\theme\\images\\blt_arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\bluearw.png",
+      "PackagePath": "staticwebassets\\theme\\images\\bluearw.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\breadcam-arrow.png",
+      "PackagePath": "staticwebassets\\theme\\images\\breadcam-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\complain.png",
+      "PackagePath": "staticwebassets\\theme\\images\\complain.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\crousal\\1.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\crousal\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\data-gov-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\data-gov-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\data-gov.png",
+      "PackagePath": "staticwebassets\\theme\\images\\data-gov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\desktop.ini",
+      "PackagePath": "staticwebassets\\theme\\images\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\digital-india-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\digital-india-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\digital-india.png",
+      "PackagePath": "staticwebassets\\theme\\images\\digital-india.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ebook-heading.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ebook-heading.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\footer-bottom-bg.png",
+      "PackagePath": "staticwebassets\\theme\\images\\footer-bottom-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\gallery-bg.jpg.png",
+      "PackagePath": "staticwebassets\\theme\\images\\gallery-bg.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ganhri-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ganhri-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ganhri.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ganhri.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\homebtmbg.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\homebtmbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ico-bullete.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ico-bullete.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ico-goi-search.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ico-goi-search.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ico-list-dbl-arrow-red.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ico-list-dbl-arrow-red.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ico-new.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ico-new.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ico-right-arrow - Copy.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ico-right-arrow - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ico-right-arrow.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ico-right-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ico-right-arrow1.png",
+      "PackagePath": "staticwebassets\\theme\\images\\ico-right-arrow1.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\24x7-icon.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\24x7-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\arow-white.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\arow-white.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\arow-yellow.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\arow-yellow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\blackarrow.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\blackarrow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\conference.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\conference.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\e-book.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\e-book.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\email.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\email.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\feed-back-icon.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\feed-back-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-1.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-2.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-3.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-4.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-4.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-5.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-5.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-6.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-6.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-7.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-7.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-8.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-8.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\icon-9.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\icon-9.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\video-gallery.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\video-gallery.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\video-icon.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\video-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\icons\\yellowarrow.png",
+      "PackagePath": "staticwebassets\\theme\\images\\icons\\yellowarrow.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\incredible-india-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\incredible-india-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\incredible-india.png",
+      "PackagePath": "staticwebassets\\theme\\images\\incredible-india.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\india-gov-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\india-gov-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\india-gov.png",
+      "PackagePath": "staticwebassets\\theme\\images\\india-gov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\leftarw.png",
+      "PackagePath": "staticwebassets\\theme\\images\\leftarw.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\logo-graphics.png",
+      "PackagePath": "staticwebassets\\theme\\images\\logo-graphics.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\make-in-india-header.png",
+      "PackagePath": "staticwebassets\\theme\\images\\make-in-india-header.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\makeinindia.png",
+      "PackagePath": "staticwebassets\\theme\\images\\makeinindia.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\menu-bullet.png",
+      "PackagePath": "staticwebassets\\theme\\images\\menu-bullet.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\minister-bg.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\minister-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\minister1.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\minister1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\minister2.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\minister2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\mygov-c.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\mygov-c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\mygov.png",
+      "PackagePath": "staticwebassets\\theme\\images\\mygov.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\nav-bg.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\nav-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\nav-menu-hover-bg.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\nav-menu-hover-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\new.png",
+      "PackagePath": "staticwebassets\\theme\\images\\new.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\notice-bg.png",
+      "PackagePath": "staticwebassets\\theme\\images\\notice-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\otherico.png",
+      "PackagePath": "staticwebassets\\theme\\images\\otherico.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\pdficon.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\pdficon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\pmnrf-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\pmnrf-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\pmnrf.png",
+      "PackagePath": "staticwebassets\\theme\\images\\pmnrf.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\pressh2.png",
+      "PackagePath": "staticwebassets\\theme\\images\\pressh2.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\prime-minister.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\prime-minister.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\profile-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\quick-bg.png",
+      "PackagePath": "staticwebassets\\theme\\images\\quick-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\search.png",
+      "PackagePath": "staticwebassets\\theme\\images\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\social-bg.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\social-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\swach-bharat-2.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\swach-bharat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\tenders.png",
+      "PackagePath": "staticwebassets\\theme\\images\\tenders.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\unhr-c.png",
+      "PackagePath": "staticwebassets\\theme\\images\\unhr-c.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\unhr.png",
+      "PackagePath": "staticwebassets\\theme\\images\\unhr.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\whats-new.png",
+      "PackagePath": "staticwebassets\\theme\\images\\whats-new.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\whitearw.png",
+      "PackagePath": "staticwebassets\\theme\\images\\whitearw.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ylwRblt.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\ylwRblt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\images\\ylwblt.jpg",
+      "PackagePath": "staticwebassets\\theme\\images\\ylwblt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\js\\custom.js",
+      "PackagePath": "staticwebassets\\theme\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\js\\desktop.ini",
+      "PackagePath": "staticwebassets\\theme\\js\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\js\\easyResponsiveTabs.js",
+      "PackagePath": "staticwebassets\\theme\\js\\easyResponsiveTabs.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\js\\ma5gallery.js",
+      "PackagePath": "staticwebassets\\theme\\js\\ma5gallery.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\theme\\js\\theme.js",
+      "PackagePath": "staticwebassets\\theme\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\twitter-circle.png",
+      "PackagePath": "staticwebassets\\twitter-circle.png"
+    },
+    {
+      "Id": "C:\\Users\\bshbe\\Downloads\\BSHB-masterDynamicNewTemplate-20240730T104549Z-001\\BSHB-masterDynamicNewTemplate\\wwwroot\\youtube-circle.png",
+      "PackagePath": "staticwebassets\\youtube-circle.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BiharStateHousingBoard.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BiharStateHousingBoard.props",
+      "PackagePath": "build\\BiharStateHousingBoard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BiharStateHousingBoard.props",
+      "PackagePath": "buildMultiTargeting\\BiharStateHousingBoard.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BiharStateHousingBoard.props",
+      "PackagePath": "buildTransitive\\BiharStateHousingBoard.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

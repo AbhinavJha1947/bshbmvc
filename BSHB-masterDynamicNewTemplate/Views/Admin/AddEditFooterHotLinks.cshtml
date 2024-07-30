@@ -1,0 +1,214 @@
+﻿@model BiharStateHousingBoard.Models.FooterHotLinksViewModel
+
+@{
+    var data = Model.ftrhotlinks.Where(s => s.ParentMenuId == 0).OrderBy(o => o.DisplayOrder).ToList();
+    var rowindx = -1;
+    var rowid = string.Empty;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddEditFooterHotLinks</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var counter = @data.Count;
+        $(function () 
+        {
+            
+        //}
+        //$(function () 
+        //{
+            $('#save').click(function () 
+            {
+                //get table
+                var tbl = document.getElementById("newMenuItem");
+
+                //array to hold the json objects
+                var jsonArray = [];
+                ////alert(tbl.rows.length - 1);
+                //var Inputs = [];
+                $(":input[name]").each(function () {
+                    //alert($(this).attr("name"));
+                    //alert($(this).val());
+                    jsonArray.push({
+                        Name: $(this).attr("name"),
+                        Value: $(this).val()
+                    });
+                });
+                //jsonArray.push(Inputs);
+
+
+
+                //var FinaljsonArray = [];
+                //iterate through the fields and put values in the json object
+                //for (var i = 0, r = tbl.rows.length - 1; i < r; i++)
+                //{
+                //    //for(var j=0;j<r*4;j++)
+                //    //{
+                //    //    if (jsonArray["Name"] == "Title")
+                //    //    {
+                //    //        alert(jsonArray["Name"]);
+                //    //        //alert($(this).val());
+                //    //        var jsonObj = {
+                //    //                    title: jsonArray["Value"]
+                //    //        }
+                //    //    }
+                //                //action: $("#Action" + i).val(),
+                //                //controller: $("#Controller" + i).val(),
+                //                //displayOrder: $("#DisplayOrder" + i).val()
+                //    //}
+                //    var jsonObj = {
+                //        title: document.getElementById("Title").value,
+                //        action: $("#Action").val(),
+                //        controller: $("#Controller").val(),
+                //        displayOrder: $("#DisplayOrder" ).val()
+                //    };
+
+                //    //put json object in array
+                //    jsonArray.push(jsonObj);
+                //}
+
+                    //put json object in array
+                        //FinaljsonArray.push(jsonObj);
+                    
+
+                
+                alert('Going to save');
+                //pass json array to controller function to save line items
+                $.ajax({
+                    type: "POST",
+                    url: "/Admin/AddEditFooterHotLinks/?data=" + JSON.stringify(jsonArray),
+                    //url: "Admin?handler=AddFooterHotLinks",
+                    contentType: "application/json; charset=utf-8'",
+                    data: { data: JSON.stringify(jsonArray) },
+                    success: function () {
+                        showModal("btn-success", "Form Saved", "Your new transfer form was successfully saved.");
+                    },
+                    failure: function () {
+                        showModal("btn-danger", "Save Failed", "Your form could not be saved, please contact site support");
+                    }
+                });
+            })
+        //}
+        
+        //$(function () {          
+            
+            
+            $('#add').click(function (e)
+            {
+                //alert("Much Before");
+                //alert("counter");
+                //alert(counter);
+                //alert("$(this).val()");
+                //alert($(this).val());
+                counter = parseInt(counter) + parseInt($(this).val());
+                //alert("after adding counter to this.val");
+                //alert("counter");
+               
+                //counter++;
+                $('<tr id="tablerow' + counter + '"><td>' +
+                    '<input type="text" class="text-box single-line" name="Title[' + counter + ']" value="" required="required" />' +
+                    '</td>' +
+                    '<td>' +
+                    '<input type="text" class="text-box single-line" name="Action[' + counter + ']" value="" required="required" />' +
+                    '</td>' +
+                    '<td>' +
+                    '<input type="text" class="text-box single-line" name="Controller[' + counter + ']" value="" required="required" />' +
+                    '</td>' +
+                    '<td>' +
+                    '<input type="text" class="text-box single-line" name="DisplayOrder[' + counter + ']" value="" required="required" />' +
+                    '</td>' +
+                    '<td>' +
+                    '<button type="button" class="btn btn-primary" onclick="removeTr(' + counter + ');">Delete</button>' +
+                    '</td>' +
+                    '</tr>').appendTo('#newMenuItem');
+                counter++;
+                //alert(counter);
+                return false;
+            });
+        });
+        function removeTr(index) {
+            //alert(index);
+            if (index >=0) {
+                $('#tablerow' + index).remove();
+                counter--;
+            }
+            //alert(counter);
+            //alert(index);
+            return false;
+        }
+    </script>
+</head>
+<body>
+    @if (@data != null)
+    {
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-3 col-sm-5 about">
+                        <div class="footer-col-inner">
+                            <h3>Hot Link</h3> 
+                            <table id="newMenuItem" class="table table-bordered">
+                                 <thead>
+                                        <tr>
+                                            <td>Title</td>
+                                            <td>Action</td>
+                                            <td>Controller</td>
+                                            <td>Display Order</td>
+                                        </tr>
+                                 </thead>
+                                 @foreach (var item in data)
+                                 {
+                                        rowindx = rowindx + 1;
+                                        rowid = "tablerow" + rowindx;
+                                        <tr id=@rowid>
+                                        <td>
+                                            <div class="editor-field">
+                                                <input id="Title" +@rowindx class="text-box single-line" name="Title" type="text" value="@item.Title" required="required" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="editor-field">
+                                                <input id="Action" class="text-box single-line" name="Action" type="text" value="@item.Action" required="required" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="editor-field">
+                                                <input id="Controller" class="text-box single-line" name="Controller" type="text" value="@item.Controller" required="required" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="editor-field">
+                                                <input id="DisplayOrder" class="text-box single-line" name="DisplayOrder" type="text" value="@item.DisplayOrder" required="required" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                                <button type="button" class="btn btn-primary" onclick="removeTr(@rowindx);">Delete</button>
+                                        </td>
+                                       
+                                        </tr>
+                                 }
+                                 
+                            </table>
+                            <table>
+                                <tr>
+                                    <td><button id="add" value="@rowindx">Add</button></td>
+                                    @* <input id="add" type="button" value="Add" class="btn bg-primary" />*@
+                                    <td>  <input id="save" type="button" value="Save" class="btn bg-primary" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+
+        <!--//footer-content-->
+    
+    }
+
+</body>
+</html>

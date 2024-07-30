@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />  <title>Index</title>
+<body>
+    <input type="button" value="InsertRecord" id="btnInsertRecord" />
+    <input type="button" value="DisplayRecords" id="btnDisplay" />
+    <div id="divPartial">
+    </div></body>
+<script src="~/Content/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#btnInsertRecord').click(function (data) {
+            $.post("@Url.Action("InsertEmployeeDetail", "Home")", function (data) {
+                if (data) {
+                    alert('Successfuly inserted!!');
+                } else {
+                    alert('An error occured!');
+                }
+            });
+        });
+        $('#btnDisplay').click(function (data) {
+            $.post("@Url.Action("GetEmployeeDetails", "Home")", function (data) {
+                if (data) {
+                    $('#divPartial').append(data);
+                } else {
+                    alert('An error occured!');
+                }
+            });
+        });
+    });
+</script>
+</html>

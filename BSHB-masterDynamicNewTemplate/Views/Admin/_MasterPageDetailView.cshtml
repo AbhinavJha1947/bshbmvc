@@ -1,0 +1,294 @@
+﻿@model List<BiharStateHousingBoard.Models.DynamicMasterPageModel>
+@{
+    Layout = null;
+}
+<h1>Employee Informations</h1>
+@if (Model != null)
+{
+    <div>
+        <table cellspacing="0" width="50%" border="1">
+            <tbody>
+                @foreach (var mastrpg in Model)
+                {
+                    <form method="post" action="./" id="form1">
+                        <div class="aspNetHidden">
+                            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTMxODQyMzY3Mg9kFgJmD2QWAgIDD2QWFAIBDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWAmYPFQIraHR0cHM6Ly9ic2hiLmJpaGFyLmdvdi5pbi9MYXlvdXRfUGxhbnMuYXNwePoD4KSJ4KSoIOCkuOCkreClgCDgpLjgpILgpKrgpKbgpL7gpJPgpIIg4KSV4KS+IOCkj+CkleCksOCkvuCksOCkqOCkvuCkruCkviAg4KSV4KWHIOCkrOCkvuCkpiAg4KSV4KS/4KS44KWN4KSkIOCksOCkvuCktuCkvyDgpI/gpJXgpLDgpL7gpLDgpKjgpL7gpK7gpL4g4KSV4KWHIOCkheCkqOClgeCkuOCksCDgpJzgpK7gpL4g4KSo4KS54KWA4KSCIOCkleClgCDgpJfgpIgg4KS54KWIIOCkheCkqCDgpLjgpKwg4KS44KSu4KWN4KSq4KSm4KS+4KST4KSCIOCkleCkviDgpI/gpJUg4KSs4KS+4KSwIOCkl+Cko+CkqOCkviDgpLngpYfgpKTgpYEg4KSq4KWN4KSw4KSk4KS/4KSV4KWN4KSw4KS/4KSv4KS+IOCkpuCksOCljeCknCDgpJXgpLDgpKjgpYcg4KS54KWH4KSk4KWBIOCksuClh+CkhuCkieCknyDgpKrgpY3gpLLgpL7gpKgg4KSu4KWH4KSCIOCknOCkvuCkleCksCDgpIXgpKrgpKjgpYAg4KSq4KWN4KSw4KSk4KS/4KSV4KWN4KSw4KS/4KSv4KS+IOCkpuCksOCljeCknCDgpJXgpLDgpYfgpIJkAgEPZBYCZg8VAhxodHRwczovL3lvdXR1LmJlL0o4eHRaVU8zWGVVIUJTSEIgYmloYXIgYXVjdGlvbiB0cmFpbmluZyB2aWRlb2QCAg9kFgJmDxUCGkFkbWluL2RvY3VtZW50cy83bmV3cy5qcGVnpAExMDAg4KSV4KWH4KS14KWA4KSPIOCkuOCkvuCkh+CksuClh+CkguCknyDgpKHgpYDgpJzgpYAg4KS44KWH4KSfIOCkleCkv+CksOCkvuCkjyDgpK/gpL4g4KSt4KS+4KSh4KWHIOCkleClhyDgpLLgpL/gpI8g4KSF4KSy4KWN4KSq4KSV4KS+4KSy4KWA4KSoIOCkleCli+Ckn+Clh+CktuCkqGQCAw9kFggCAQ8WAh8AAgEWAmYPZBYCZg8VAghBYm91dCBVcwINCmQCAw8WAh8AAgYWDGYPZBYCZg8VBRZNaW5pc3Rlcl9PZmZpY2VyLzEuanBnE1NocmkgICBOaXRpc2ggS3VtYXITU2hyaSAgIE5pdGlzaCBLdW1hchZIb24nYmxlIENoaWVmIE1pbmlzdGVyC0JpaGFyIEluZGlhZAIBD2QWAmYPFQUWTWluaXN0ZXJfT2ZmaWNlci8yLmpwZxVTaHJpIFNocmkgTml0aW4gTmF2aW4VU2hyaSBTaHJpIE5pdGluIE5hdmluGEhvbidibGUgTWluaXN0ZXIgVUQgJiBIRABkAgIPZBYCZg8VBRZNaW5pc3Rlcl9PZmZpY2VyLzMucG5nFVNyaSAgQ2hhaXRhbnlhIFByYXNhZBVTcmkgIENoYWl0YW55YSBQcmFzYWQoSUFTLCBDaGFpcm1hbiAsRGV2ZWxvcG1lbnQgQ29tbWlzc2lvbmVyCQBkAgMPZBYCZg8VBRdNaW5pc3Rlcl9PZmZpY2VyLzQuanBlZxFTcmkgQW5hbmQgS2lzaG9yZRFTcmkgQW5hbmQgS2lzaG9yZRxQcmluY2lwYWwgU2VjcmV0YXJ5LCBVRCAmIEhEAGQCBA9kFgJmDxUFFk1pbmlzdGVyX09mZmljZXIvNS5qcGceU3JpIFJhaml2IEt1bWFyIFNyaXZhc3RhdiwgSUFTHlNyaSBSYWppdiBLdW1hciBTcml2YXN0YXYsIElBUy9NRCwgQlNIQiAgTW9iLk5vLi05NDczMDc5NDIxICBFbWFpbC0gbWRAYnNoYi5pbgBkAgUPZBYCZg8VBRZNaW5pc3Rlcl9PZmZpY2VyLzYuanBnGVNyaSBTaGFzaGkgQmh1c2hhbiBQcmFzYWQZU3JpIFNoYXNoaSBCaHVzaGFuIFByYXNhZA9TZWNyZXRhcnksIEJTSEIvTW9iLm5vLjk0NzMxOTc3NDAgRW1haWwtc2VjcmV0YXJ5YnNoYkBnbWFpbC5jb21kAgUPFgIfAAIDFgZmD2QWAmYPFQIA+gPgpIngpKgg4KS44KSt4KWAIOCkuOCkguCkquCkpuCkvuCkk+CkgiDgpJXgpL4g4KSP4KSV4KSw4KS+4KSw4KSo4KS+4KSu4KS+ICDgpJXgpYcg4KSs4KS+4KSmICDgpJXgpL/gpLjgpY3gpKQg4KSw4KS+4KS24KS/IOCkj+CkleCksOCkvuCksOCkqOCkvuCkruCkviDgpJXgpYcg4KSF4KSo4KWB4KS44KSwIOCknOCkruCkviDgpKjgpLngpYDgpIIg4KSV4KWAIOCkl+CkiCDgpLngpYgg4KSF4KSoIOCkuOCkrCDgpLjgpK7gpY3gpKrgpKbgpL7gpJPgpIIg4KSV4KS+IOCkj+CklSDgpKzgpL7gpLAg4KSX4KSj4KSo4KS+IOCkueClh+CkpOClgSDgpKrgpY3gpLDgpKTgpL/gpJXgpY3gpLDgpL/gpK/gpL4g4KSm4KSw4KWN4KScIOCkleCksOCkqOClhyDgpLngpYfgpKTgpYEg4KSy4KWH4KSG4KSJ4KSfIOCkquCljeCksuCkvuCkqCDgpK7gpYfgpIIg4KSc4KS+4KSV4KSwIOCkheCkquCkqOClgCDgpKrgpY3gpLDgpKTgpL/gpJXgpY3gpLDgpL/gpK/gpL4g4KSm4KSw4KWN4KScIOCkleCksOClh+CkgmQCAQ9kFgJmDxUCACFCU0hCIGJpaGFyIGF1Y3Rpb24gdHJhaW5pbmcgdmlkZW9kAgIPZBYCZg8VAhpBZG1pbi9kb2N1bWVudHMvN25ld3MuanBlZ6QBMTAwIOCkleClh+CkteClgOCkjyDgpLjgpL7gpIfgpLLgpYfgpILgpJ8g4KSh4KWA4KSc4KWAIOCkuOClh+CknyDgpJXgpL/gpLDgpL7gpI8g4KSv4KS+IOCkreCkvuCkoeClhyDgpJXgpYcg4KSy4KS/4KSPIOCkheCksuCljeCkquCkleCkvuCksuClgOCkqCDgpJXgpYvgpJ/gpYfgpLbgpKhkAgcPFgIfAGZkAgUPDxYCHgRUZXh0BU5SLUJsb2NrLCA2LCBTYXJkYXIgUGF0ZWwgTWFyZywgVmVlcmNoYW5kDQpQYXRlbCBSb2FkIEFyZWEsIFBhdG5hLCBCaWhhciA4MDAwMTVkZAIHDw8WAh8BBQVCaWhhcmRkAgkPDxYCHwEFBUluZGlhZGQCCw8PFgIfAQUKOTQ3MzE5Nzc0MGRkAg0PDxYCHwEFATBkZAIPDw8WAh8BBRdzZWNyZXRhcnlic2hiQGdtYWlsLmNvbWRkAhEPDxYCHwEFBDE5NjdkZAITDw8WAh8BBQhSREZZam9sZmRkZB2EUIDQxScJ/JmCgIIilRGkJqzXJQOW/meJOJaHEfIZ" />
+                        </div>
+
+                        <div class="aspNetHidden">
+
+                            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+                        </div>
+                        <div class="wrapper">
+                            <div class="sticky-container">
+                                <ul class="sticky">
+                                    <li>
+                                        <img src="~/facebook-circle.png" width="32" height="32">
+                                        <p><a href="https://www.facebook.com/codexworld" target="_blank">Like Us on<br>Facebook</a></p>
+                                    </li>
+                                    <li>
+                                        <img src="~/twitter-circle.png" width="32" height="32">
+                                        <p><a href="https://twitter.com/codexworldblog" target="_blank">Follow Us on<br>Twitter</a></p>
+                                    </li>
+                                    <li>
+                                        <img src="~/gplus-circle.png" width="32" height="32">
+                                        <p><a href="https://plus.google.com/codexworld" target="_blank">Follow Us on<br>Google+</a></p>
+                                    </li>
+                                    <li>
+                                        <img src="~/linkedin-circle.png" width="32" height="32">
+                                        <p><a href="https://www.linkedin.com/company/codexworld" target="_blank">Follow Us on<br>LinkedIn</a></p>
+                                    </li>
+                                    <li>
+                                        <img src="~/youtube-circle.png" width="32" height="32">
+                                        <p><a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br>YouYube</a></p>
+                                    </li>
+                                    <li>
+                                        <img src="~/pin-circle.png" width="32" height="32">
+                                        <p><a href="https://www.pinterest.com/codexworld" target="_blank">Follow Us on<br>Pinterest</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <!-- ******HEADER****** -->
+                        <header class="header" style="background-color:#b5a322;">
+                            <div class="top-bar">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <span id='ct' style="line-height:24px; color:white; font-size:16px; margin-left:25px;"></span>
+                                    </div>
+
+                                </div>
+                            </div><!--//to-bar-->
+
+                        </header><!--//header-->
+                        <div class="dashboard_bottom" style="background:#10A062; border-bottom:#005B34 solid 2px; color:#FFFFFF">
+
+                            <!-- ******HEADER****** -->
+                            <header class="header" style="background-color:#b5a322;">
+                                <div class="top-bar">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <span id='ct' style="line-height:24px; color:white; font-size:16px; margin-left:25px;"></span>
+                                        </div>
+
+                                    </div>
+                                </div><!--//to-bar-->
+                            </header>
+                            <div class="header-main row">
+                                <h1 class="logo col-md-5 col-sm-5">
+                                    <a href="Default.aspx"><img id="logo" width="100%" src="@mastrpg.logo" alt="LogoFogo" /></a>
+                                </h1><!--//logo-->
+                                <h1 class="logo col-md-1 col-sm-1">
+                                    <a href="#">
+                                        <img src="@mastrpg.HeaderIcon1Path" alt="Logo" id="img1" class="img-responsive" />
+                                    </a>
+                                </h1><!--//logo-->
+                                <h1 class="logo col-md-1 col-sm-1">
+                                    <a href="Lease_Hold_To_Free_Hold.aspx"><img src="@mastrpg.HeaderIcon2Path" alt="Logo" id="img2" class="img-responsive" /></a>
+                                </h1><!--//logo-->
+                                <h1 class="logo col-md-1 col-sm-1">
+                                    <a href="NamantaranLogin.aspx"><img src="@mastrpg.HeaderIcon3Path" alt="Logo" id="img3" class="img-responsive" /></a>
+                                </h1><!--//logo-->
+                                <h1 class="logo col-md-1 col-sm-1">
+                                    <a href="Samadhan.aspx"><img src="@mastrpg.HeaderIcon4Path" alt="Logo" id="img4" class="img-responsive" /></a>
+                                </h1><!--//logo-->
+                                <h1 class="logo col-md-1 col-sm-1">
+                                    <a href="AlloteeDayAppointment.aspx"><img src="@mastrpg.HeaderIcon5Path" alt="Logo id="img5" class="img-responsive" /></a>
+                                </h1><!--//logo-->
+                                <h1 class="logo col-md-1 col-sm-1">
+                                    <a href="LeaseDeedLogin.aspx"><img src="@mastrpg.HeaderIcon6Path" alt="Logo" id="img6" class="img-responsive" /></a>
+                                </h1><!--//logo-->
+                                <h1 class="logo col-md-1 col-sm-1">
+                                    <a href="NocUserLogin.aspx"><img src="@mastrpg.HeaderIcon7Path" alt="Logo" id="img7" class="img-responsive" /></a>
+                                </h1><!--//logo-->
+                            </div><!--//header-main-->
+                        </div>
+
+                        <!-- ******NAV****** -->
+                        <nav class="main-nav" role="navigation">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button><!--//nav-toggle-->
+                                </div><!--//navbar-header-->
+                                <div class="navbar-collapse collapse" id="navbar-collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li class="nav-item"><a href="/">Home</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About Us<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="/home/MD_Message">MD Message</a></li>
+                                                <li><a href="List_of_Chairman.aspx">List of Chairman</a></li>
+                                                <li><a href="List_Of_MD.aspx">List Of MD</a></li>
+                                                <li><a href="Officers_List.aspx">Officers List</a></li>
+                                                <li><a href="Our_Employee.aspx">Our Employee</a></li>
+                                                <li><a href="Organisational_Structure.aspx">Organisational Structure</a></li>
+                                                <li><a href="#">Policies</a></li>
+                                                <li><a href="#">Acts &amp; Rules</a></li>
+                                                <li><a href="#">Vision</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">RTI<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://jaankari.bihar.gov.in/">Jaankari Facilitation Centre</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Gallary<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="Photo_Gallery.aspx">Photo Gallary</a></li>
+                                                <li><a href="Video_Gallary.aspx">Video Gallary</a></li>
+                                                <li><a href="Press_Release.aspx">Press Release</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Notices<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Notices</a></li>
+                                                <li><a href="#">Office Orders</a></li>
+                                                <li><a href="#">Circulars</a></li>
+                                                <li><a href="#">Minutes of Board Meeting</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Tenders<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="Tenders.aspx">Current Tenders</a></li>
+                                                <li><a href="ArchiveTenders.aspx">Archive Tenders</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Schemes<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">New Schemes</a></li>
+                                                <li><a href="#">Old Schemes</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item"><a href="Layout_Plans.aspx">Layout Plans</a></li>
+                                        <li class="nav-item"><a href="#">Career</a></li>
+                                        <li class="nav-item"><a href="Contact_List.aspx">Contact List</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Login<i class="fa fa-angle-down"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="Login.aspx">Administrative Login</a></li>
+                                                <li><a href="ULogin.aspx">User Login</a></li>
+                                                <li><a href="Shakha_Assistant_Login.aspx">Section Officer Login</a></li>
+                                                <li><a href="SamadhanLogin.aspx">Samadhan Incharge</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul><!--//nav-->
+                                </div><!--//navabr-collapse-->
+                            </div><!--//container-->
+                        </nav><!--//main-nav-->
+
+                        <section class="latest-new">
+                            <div class="btm-news">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="newshead">नवीनतम सूचनाएँ</div>
+                                        <div class="newscontent">
+                                            <marquee behavior="scroll" scrollamount="5" direction="left">
+
+
+                                                <a href='https://bshb.bihar.gov.in/Layout_Plans.aspx' target="_blank"><img alt="" src="~/new-gif.gif" width="60px" />&nbsp;उन सभी संपदाओं का एकरारनामा  के बाद  किस्त राशि एकरारनामा के अनुसर जमा नहीं की गई है अन सब सम्पदाओं का एक बार गणना हेतु प्रतिक्रिया दर्ज करने हेतु लेआउट प्लान में जाकर अपनी प्रतिक्रिया दर्ज करें</a> &nbsp;&nbsp;
+
+
+
+                                                <a href='https://youtu.be/J8xtZUO3XeU' target="_blank"><img alt="" src="~/new-gif.gif" width="60px" />&nbsp;BSHB bihar auction training video</a> &nbsp;&nbsp;
+
+
+
+                                                <a href='~/7news.jpeg' target="_blank"><img alt="" src="~/new-gif.gif" width="60px" />&nbsp;100 केवीए साइलेंट डीजी सेट किराए या भाडे के लिए अल्पकालीन कोटेशन</a> &nbsp;&nbsp;
+
+
+                                            </marquee>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="marqu-covid">
+                            <a target="_blank" href="http://www.bshb.in/download/Affordable%20Housing%20and%20Slum%20Rehabilitation%20and%20Redevelopment%20Housing%20Policy%202017,%20Bihar.pdf" class="external">Affordable Housing and Slum Rehabilitation and Redevelopment Housing Policy 2017, Bihar </a>
+                            &nbsp; &nbsp; <a href="UserManual.aspx" class="external"><img alt="" src="~/new.gif" width="30px" /> User Manual</a>
+                        </div>
+                        <!-- ******CONTENT****** -->
+                        <div style="min-height:200px; background-color:#fcf1ec;">
+
+
+                            <!-- Bootstrap -->
+
+                            <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css'
+                                  media="screen" />
+                            <!-- Bootstrap -->
+
+                            <audio class="audio" loop autoplay="autoplay" id="audioelement">
+                                <source src="1.ogg" type="audio/ogg" />
+                                <source src="assets/mp3.mp3" type="audio/mpeg" />
+                            </audio>
+                            <div class="container">
+                                <div class="row cols-wrapper">
+                                    <div class="col-md-12">
+                                        <div id="promo-slider" class="slider flexslider" style="width:100%;">
+                                            <ul class="slides">
+                                                <li>
+                                                    <img src="Admin/slides/slide-1.jpg" alt="" />
+
+                                                </li>
+                                                <li>
+                                                    <img src="Admin/slides/slide-2.jpg" alt="" />
+
+                                                </li>
+                                                <li>
+                                                    <img src="Admin/slides/slide-3.jpg" alt="" />
+
+                                                </li>
+                                                <li>
+                                                    <img src="Admin/slides/slide-4.jpg" alt="" />
+
+                                                </li>
+                                            </ul><!--//slides-->
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <main role="main" class="pb-3">
+                                    @*        <a class="btn btn-success" href="@Url.Action("GetMenuData", "AboutUs")">Start</a>
+                            *@@*          <%= Html.Action("GetMenuData", "AboutUs") %>
+                            *@
+
+                                    <script type="text/javascript">
+                                        $(function () {
+                                            $('#btnInsertRecord').click(function (data) {
+                                                $.post("@Url.Action("InsertEmployeeDetail", "Home")", function (data) {
+                                                    if (data) {
+                                                        alert('Successfuly inserted!!');
+                                                    } else {
+                                                        alert('An error occured!');
+                                                    }
+                                                });
+                                        @RenderBody()
+                                                    </main>
+                                                    < /div><!--/ / wrapper-- >
+                                                    <footer class="border-top footer text-muted" >
+                                                        <div class="container" >
+                                                    & copy; 2024 - BiharStateHousingBoard - <a asp - area="" asp - controller="Home" asp - action="Privacy" > Privacy < /a>
+                                                    < /div>
+                                                    < /footer>
+                                                    < script src = "~/lib/jquery/dist/jquery.min.js" ></script>
+                                    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                                    <script src="~/js/site.js" asp-append-version="true"></script>
+                                    @await RenderSectionAsync("Scripts", required: false)
+                    </form>
+
+                }
+            </tbody>
+        </table>
+    </div>
+}

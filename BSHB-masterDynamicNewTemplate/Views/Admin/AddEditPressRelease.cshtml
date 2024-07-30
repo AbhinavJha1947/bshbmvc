@@ -1,0 +1,205 @@
+﻿@model BiharStateHousingBoard.Models.PressReleaseViewModel
+
+@{
+    ViewData["Title"] = "AddEditPressRelease";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+@{
+    //var data = Model.prsrels.Where(s=>s.ReleaseDate<=DateTime.Now).OrderBy(o =>o.DisplayOrder).ToList();
+    var data = Model.prsrels.OrderBy(o => o.DisplayOrder).ToList();
+    var rowindx = 0;
+    var rowid = string.Empty;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit Press Release</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var counter = @data.Count;
+        $(function () {
+            $('#save').click(function () {
+                //get table
+                var tbl = document.getElementById("newMenuItem");
+                //array to hold the json objects
+                var jsonArray = [];
+                ////alert(tbl.rows.length - 1);
+                //var Inputs = [];
+                $(":input[name]").each(function () {
+                    //alert($(this).attr("name"));
+                    //alert($(this).val());
+                    jsonArray.push({
+                        Name: $(this).attr("name"),
+                        Value: $(this).val()
+                    });
+                });
+                //$(":checkbox[name]").each(function () {
+                //    alert($(this).attr("name"));
+                //    //alert($(this).this.val());
+                //    //alert($(this).this.value());
+                //    alert($('#Active').val());
+                //    jsonArray.push({
+                //        Name: $(this).attr("name"),
+                //        Value: $(this).this.value()
+                //    });
+                //});
+                $('input[type="checkbox"]:checked').each(function () {
+                    //alert($(this).attr("name"));
+                    //alert('checked');
+                    jsonArray.push({
+                        Name: $(this).attr("name"),
+                        Value: true
+                    });
+                })
+                $('input[type="checkbox"]:not(:checked)').each(function () {
+                    //alert($(this).attr("name"));
+                    //alert('unchecked');
+                    jsonArray.push({
+                        Name: $(this).attr("name"),
+                        Value: false
+                    });
+                })
+                alert('Going to save');
+                //pass json array to controller function to save line items
+                $.ajax({
+                    type: "POST",
+                    url: "/Admin/AddEditPressRelease/?data=" + JSON.stringify(jsonArray),
+                    //url: "Admin?handler=AddFooterHotLinks",
+                    contentType: "application/json; charset=utf-8'",
+                    data: { data: JSON.stringify(jsonArray) },
+                    success: function () {
+                        showModal("btn-success", "Form Saved", "Your new transfer form was successfully saved.");
+                    },
+                    failure: function () {
+                        showModal("btn-danger", "Save Failed", "Your form could not be saved, please contact site support");
+                    }
+                });
+            })
+            //}
+
+            //$(function () {
+
+
+            $('#add').click(function (e) {
+                counter = parseInt(counter) + parseInt($(this).val());
+                $('<tr id="tablerow' + counter + '"><td colspan="2">' +
+                    '<input type="text"  name="Heading[' + counter + ']" value="" required="required" />' +
+                    '</td>' +
+                    '<td colspan="6">' +
+                    '<textarea rows="4" cols="50"   name="Details[' + counter + ']" value="" required="required" />' +
+                    '</td>' +
+                    '<td colspan="2">' +
+                    '<input type="date" id="ReleaseDate"  name="ReleaseDate[' + counter + ']" required="required"/>' +
+                    '</td>' +
+                    '<td colspan="1">' +
+                    '<input type="text"  name="DisplayOrder[' + counter + ']" value="" required="required" />' +
+                    '</td>' +
+                    '<td colspan="1">' +
+                    '<input type="checkbox"  name="Active[' + counter + ']" value="" />' +
+                    '</td>'+
+                    '<td>' +
+                    '<button type="button" class="btn btn-primary" onclick="removeTr(' + counter + ');">Delete</button>' +
+                    '</td>' +
+                    '</tr>').appendTo('#newMenuItem');
+                counter++;
+                //alert(counter);
+                return false;
+            });
+        });
+        function removeTr(index) {
+            //alert(index);
+            if (index >= 0) {
+                $('#tablerow' + index).remove();
+                counter--;
+            }
+            //alert(counter);
+            //alert(index);
+            return false;
+        }
+    </script>
+</head>
+<body>
+    @if (@data != null)
+    {
+        <div class="rightpart">
+                                <div class="sechBx clearfix">
+                                    <div class="bretcrum">Dashboard</div>
+                                </div>
+                                <div class="dashBx">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-3 col-sm-5 about">
+                        <div class="footer-col-inner">
+                            <h3>Press Release</h3>                            
+                            <table id="newMenuItem" class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <td colspan="1">Heading</td>
+                                        <td colspan="8">Details</td>
+                                        <td colspan="1">Release Date</td>                                       
+                                        <td colspan="1">Display Order</td>
+                                        <td colspan="1">Active</td>
+                                    </tr>
+                                </thead>
+                                @foreach (var item in data)
+                                {
+                                    rowindx = rowindx + 1;
+                                    rowid = "tablerow" + rowindx;
+                                    <tr id=@rowid>
+                                        <td colspan="2">
+                                            <div class="editor-field">
+                                                <input id="Heading" +@rowindx+1  name="Heading" +@rowindx type="text" value="@item.Heading" required="required" />
+                                            </div>
+                                        </td>
+                                        <td colspan="6">
+                                            <div class="editor-field">
+                                                <textarea id="Details" +@rowindx+1 rows="4" cols="50"  name="Details">@item.Details</textarea>
+                                            </div>
+                                        </td>
+                                        <td colspan="2">
+                                            <div class="editor-field">
+                                                @Html.TextBoxFor(m => item.ReleaseDate, "{0:yyyy-MM-dd}", new {id="ReleaseDate" +@rowindx,name="ReleaseDate"+@rowindx, type = "date",required="required" })
+                                            </div>
+                                        </td>                                        
+                                        <td colspan="1">
+                                            <div class="editor-field">
+                                                <input id="DisplayOrder" +@rowindx name="DisplayOrder" type="text" value="@item.DisplayOrder" required="required" />
+                                            </div>
+                                        </td>
+                                        <td colspan="1">
+                                            <div class="editor-field">
+                                                <input id="Active" +@rowindx name="Active[@rowindx]" type="checkbox" checked="@item.Active"   />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" onclick="removeTr(@rowindx);">Delete</button>
+                                        </td>
+
+                                    </tr>
+                                }
+
+                            </table>
+                            <table>
+                                <tr>
+                                    <td><button id="add" value="@rowindx">Add</button></td>
+                                    @* <input id="add" type="button" value="Add" class="btn bg-primary" />*@
+                                    <td>  <input id="save" type="button" value="Save" class="btn bg-primary" /></td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!--//footer-content-->
+    }
+
+</body>
+</html>

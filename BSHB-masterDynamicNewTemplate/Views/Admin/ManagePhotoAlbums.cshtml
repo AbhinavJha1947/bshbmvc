@@ -1,0 +1,154 @@
+﻿@*@model IList<BiharStateHousingBoard.Models.AlbumMaster>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+    int i = 0;
+}
+<script type="text/javascript">
+    function ValidateForm() {
+        //var txt1 = document.getElementById('ImagePath');
+        //if (txt1.value == '') {
+        //    alert("Select Image Name !")
+        //    document.getElementById("ImageName").focus();
+        //    return false;
+        //}
+        var uploadfile = document.getElementById('ImagePath');
+
+        if (uploadfile.value == '') {
+            alert('Please upload the image');
+            uploadfile.focus();
+            return false;
+        }
+        var fname = uploadfile.value;
+        var ext = fname.split(".");
+        var x = ext.length;
+        var extstr = ext[x - 1].toLowerCase();
+        if (extstr == 'jpg' || extstr == 'jpeg' || extstr == 'png' || extstr == 'gif') { }
+        else {
+            alert("Please upload valid image");
+            uploadfile.focus();
+            return false;
+        }
+    }
+</script>
+
+<h2>Manage Albums</h2>
+<div style="width:600px;">
+    @using (Html.BeginForm("Create", "ManageAlbums", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <fieldset>
+            <legend>Create Albums</legend>
+            <table>
+           
+                <tr>
+                    <td>Image : </td>
+                    <td><input type="file" name="ImageData" id="ImageData" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submit" value="Upload" onclick="return ValidateForm()" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    }
+</div>*@
+@model BiharStateHousingBoard.Models.PhotoGalleryViewModel
+
+@*@model IList<BiharStateHousingBoard.Models.AlbumMaster>
+*@@{
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Manage Photo Albums</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        
+
+         td {
+            width: 180px;
+            text-align: center;
+            border: 0px dashed black;
+            padding: 5px
+        }
+
+        .geeks {
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .gfg {
+            border-collapse: separate;
+            border-spacing: 0 15px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="rightpart">
+        <div class="sechBx clearfix">
+            <div class="bretcrum">Dashboard</div>
+        </div>
+        <div class="dashBx">
+            <form asp-action="ManagePhotoAlbums" class="form-horizontal" enctype="multipart/form-data" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="Edit-Img">
+                    <label class="lblTxt">Photo Gallery Image</label>
+                    <br /> 
+                    <div class="form-group">
+                       <div class="edit-icon">
+                        <input type="file" name="PhotoAlbumImage" />
+                            @Html.ValidationMessageFor(m => m.photoalblmstrmdl.ImagePath)
+                        </div>
+                        <input type="submit" value="Submit" class="btn bg-primary" />
+                    </div>
+                </div>
+            </form>
+            <h2>
+                Photo Gallery
+            </h2>
+            <center>
+                <table cellpadding="15" cellspacing="15" width="900" class="gfg">
+                @{
+                    //repeatdirection = Horizontal, RepeatColumns = 4
+                    const int NumberOfColumns = 5;
+                    int skip = 0;
+                    var items = Model.photoalnmlstmdl.Skip(skip).Take(NumberOfColumns);
+                    while (items.Count() > 0)
+                    {
+                        <tr >
+                            @foreach (var item in items)
+                            {
+                                    <td width="450" class="geeks">
+                                    <table class="thumbmain">
+                                        <tr>
+                                            <td>
+                                                <img src="/Uploads/PhotoAlbum/@item.ImagePath" style="border:solid" width="120" height="120" class="imageclass" />
+                                            </td>
+                                        </tr>                                    
+                                    </table>
+                                </td>
+                            }
+                        </tr>
+                        skip += NumberOfColumns;
+                        items = Model.photoalnmlstmdl.Skip(skip).Take(NumberOfColumns);
+                    }
+                }
+            </table>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

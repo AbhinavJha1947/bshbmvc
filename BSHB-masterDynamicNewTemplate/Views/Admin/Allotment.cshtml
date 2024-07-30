@@ -1,0 +1,32 @@
+﻿@model BiharStateHousingBoard.Models.AllotmentViewModel
+@{
+    ViewData["Title"] = "Allotment";
+    //Layout = "~/Views/Admin/_AdminLayout.cshtml";
+    Layout = null;
+    var propdata = Model.propertylstmdl.ToList();
+    var propcnt = @propdata.Count;
+    //var propcnt = Model.applicantlstmdl.ToList();
+
+    var applctdata = Model.applicantlstmdl.ToList();
+    var applctcnt = @applctdata.Count;
+    //var applctcnt = Model.applicantmstrmdl.ApplicantCategory.Length;
+
+}
+
+<h1>Allotment</h1>
+<center><h1>Economically Weaker Section</h1></center>
+<h1>Applicants____________________Properties</h1>
+<h1>@applctcnt _____________________@propcnt</h1>
+<h1>                GO              </h1>
+<div class="rightpart">
+    
+    <div class="dashBx">
+        @using (Html.BeginForm("Allotment", "Admin", FormMethod.Post))
+        {            
+            <div class="form-group">
+                <input type="submit" value="GO" class="btn bg-primary" />
+            </div>
+        }
+    </div>
+</div>
+

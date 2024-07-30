@@ -1,0 +1,52 @@
+﻿@model BiharStateHousingBoard.Models.FooterMapModel
+@{
+    ViewData["Title"] = "AddEditFooterMap";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+<script>
+    function readImageURL(controlID, imageID) {
+        var ValidImage = 0;
+        var CheckFileType = checkFileExtension($(controlID).val());
+        if (CheckFileType == "png" || CheckFileType == "jpg" || CheckFileType == "jpeg" || CheckFileType == "gif") {
+            if (controlID.files && controlID.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $(imageID).attr('src', e.target.result);
+                };
+                reader.readAsDataURL(controlID.files[0]);
+            }
+            ValidImage = CalculateFileSize($(controlID));
+        }
+        else {
+            ValidImage = 1;
+            // alert('Invalid image format');
+        }
+
+        if (ValidImage == 1)
+            swal('', 'Invalid image format', 'error');
+        //  alert('Invalid image format');
+        if (ValidImage == 2)
+            swal('', 'Maximum size of uploaded content is 2 MB', 'error');
+        // alert('Please select an image of size < 4MB');
+    }
+</script>
+<h1>Insert Footer Map</h1>
+<hr />
+<div class="rightpart">
+    <div class="sechBx clearfix">
+        <div class="bretcrum">Dashboard</div>
+    </div>
+    <div class="dashBx">
+<form asp-action="AddEditFooterMap" class="form-horizontal" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label class="control-label">Map Link</label>
+        <input asp-for="maplink" placeholder="maplink" class="form-control" />
+        <span asp-validation-for="maplink" class="text-danger"></span>
+    </div>
+        <div class="form-group">
+        <input type="submit" value="Submit" class="btn bg-primary" />
+    </div>  
+</form>
+</div>
+</div>

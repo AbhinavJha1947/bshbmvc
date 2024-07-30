@@ -1,0 +1,94 @@
+﻿@model BiharStateHousingBoard.Models.MasterPgViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_InnerPageLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact Us</title>
+</head>
+<body>
+     <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+ @*            <div class="footer-col col-md-3 col-sm-5 about">
+                    <div class="footer-col-inner">
+                        <h3>Hot Link</h3>
+                        <ul>
+                            <li><a target="_blank" href=""><i class="fa fa-caret-right"></i> Home</a></li>
+                            <li><a target="_blank" href=""><i class="fa fa-caret-right"></i> About Us</a></li>
+                            <li><a target="_blank" href=""><i class="fa fa-caret-right"></i>Our MD</a></li>
+                            <li><a target="_blank" href=""><i class="fa fa-caret-right"></i>Tender</a></li>
+                            <li><a href=""><i class="fa fa-caret-right"></i>Staff</a></li>
+                        </ul>
+                    </div><!--//footer-col-inner-->
+                </div>*@<!--//foooter-col-->
+                    @if (Model != null)
+                    {
+                        @foreach (var mstrpgmaplnk in Model.ftrmaplink)
+                        {
+                            <div class="footer-col col-md-8 col-sm-12 newsletter">
+                                <div class="footer-col-inner">
+                                    <iframe src=@mstrpgmaplnk.maplink width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div><!--//footer-col-inner-->
+                            </div>
+                        }
+                    }
+                    <!--//foooter-col--> 
+                    @if (Model != null)
+                    {
+                        @foreach (var mstrpgcontctus in Model.ftrcntactus)
+                        {
+                            <div class="footer-col col-md-4 col-sm-12 contact">
+                                <div class="footer-col-inner">
+                                    <h3>Contact us</h3>
+                                    <div class="row">
+                                        <p class="adr clearfix col-md-12 col-sm-4">
+                                            <i class="fa fa-map-marker pull-left"></i>        
+                                            <span class="adr-group pull-left">
+                                                <span class="street-address">@mstrpgcontctus.addressline1</span><br>
+@*                                                <span class="region"><span id="lbl_address">@mstrpgcontctus.addressline2</span></span><br>
+*@                                                <span class="region">
+                                                    <span id="lbl_address">
+                                                        @mstrpgcontctus.addressline2
+                                                    </span>
+                                                </span><br>
+                                                <span class="postal-code"><span id="lbl_state">@mstrpgcontctus.addressline3</span></span><br>
+                                                <span class="country-name"><span id="lbl_country">@mstrpgcontctus.addressline4</span><span id="lbl_state">-@mstrpgcontctus.Pincode</span></span>
+                                            </span>
+                                        </p>
+                                        <p class="tel col-md-12 col-sm-4"><i class="fa fa-phone"></i><span id="lbl_contact_a_1">@mstrpgcontctus.mobile1</span>, <span id="lbl_contact_a_2">@mstrpgcontctus.mobile2</span></p>
+                                        <p class="email col-md-12 col-sm-4"><i class="fa fa-envelope"></i><a href="#"><span id="lbl_email_a">@mstrpgcontctus.emailaddress</span></a></p>
+                                    </div> 
+                                </div><!--//footer-col-inner-->            
+                            </div><!--//foooter-col-->
+                        }
+                    }
+                </div>   
+            </div>        
+        </div><!--//footer-content-->
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="row">
+                    <small class="copyright col-md-6 col-sm-12 col-xs-12">Copyright @@ <span id="lbl_copyright_year">1967</span> <span id="lbl_name">RDFYjolf</span> | Website template by <a href=""></a></small>
+                    <ul class="social pull-right col-md-6 col-sm-12 col-xs-12">
+                        <li>
+                            <center><!-- BEGIN: Powered by Supercounters.com -->
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/hit.js"></script><script type="text/javascript">sc_hit(1642504, 15, 8);</script><br><noscript><a href="http://www.supercounters.com/">free online counter</a></noscript>
+</center>
+<!-- END: Powered by Supercounters.com --></center>
+                        </li>
+                        
+                    </ul><!--//social-->
+                </div><!--//row-->
+            </div><!--//container-->
+        </div><!--//bottom-bar-->
+    </footer><!--//footer-->
+</body>
+</html>

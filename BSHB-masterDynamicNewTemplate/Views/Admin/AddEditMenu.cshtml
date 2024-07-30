@@ -1,0 +1,35 @@
+﻿@*@model BiharStateHousingBoard.Models.DynamicMasterPageModel
+*@
+@model BiharStateHousingBoard.Models.MenuModel
+
+@{
+    ViewData["Title"] = "AddEditMenu";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+
+<h1>AddEditMenu</h1>
+<div class="rightpart">
+    <div class="sechBx clearfix">
+        <div class="bretcrum">Dashboard</div>
+    </div>
+    <div class="dashBx">
+<form asp-action="AddEditMenu" class="form-horizontal" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    @* @if (Model != null)
+    {
+    @foreach (var mastrpg in Model)
+    {*@
+    <div class="Edit-Img"> 
+        <label class="control-label">Main Menu Item</label>
+        <input asp-for="Title" class="form-control" placeholder="80" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+        </div> 
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn bg-primary" />
+
+    </div>
+    @*}
+    }*@
+</form>
+</div>
+</div>

@@ -1,0 +1,74 @@
+﻿@{
+    Layout = null;
+    string usr = TempData["UserId"].ToString();
+    TempData.Keep();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title> : Admin Panel</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/CSS/admin_stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="/CSS/sweetalert.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    @RenderSection("css", false)
+</head>
+<body>
+    <style>
+        .input-group-glue {
+            width: 0;
+            display: table-cell;
+        }
+
+        .LangDropDown {
+            float: right;
+        }
+
+            .LangDropDown option a {
+                color: green;
+            }
+
+        .displayLang {
+            display: inline-block !important;
+        }
+    </style>
+
+    <div class="main-cont">
+        <!---->
+        <div class="headertop">
+            <div class="logo"><a href="/">Logo</a></div>
+            <div class="header-right">
+                <span>
+                    Welcome @usr |  <a href="/home/index"> Log Out</a>
+                </span>
+
+
+            </div>
+        </div>
+
+        <div class="micCont">
+            @Html.Partial("_AdminMenu")
+            @RenderBody()
+        </div>
+    </div>
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/sweetalert-dev.js"></script>
+    <script src="~/Scripts/admin_function.js"></script>
+    <script src="~/Scripts/CustomFunction.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/jquery.dataTables.min.js"></script>
+    <link href="~/CSS/jquery.dataTables.css" rel="stylesheet" />
+    @RenderSection("js", false)
+</body>
+</html>

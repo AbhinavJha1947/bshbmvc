@@ -1,0 +1,44 @@
+﻿@model BiharStateHousingBoard.Models.HomeBannerModel
+@{
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddEditHomeBanner</title>
+</head>
+<body>
+    <div class="rightpart">
+        <div class="sechBx clearfix">
+            <div class="bretcrum">Dashboard</div>
+        </div>
+        <div class="dashBx">
+            <form asp-action="AddEditHomeBanner" class="form-horizontal" enctype="multipart/form-data" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="Edit-Img">
+                    <label class="lblTxt">Home Index Page Title Image</label>
+                    <br /> 
+                    <div class="form-group">
+                        @*<div class="edit-icon">*@
+                            <input type="file" name="HomeBannerImage" />
+                            @Html.ValidationMessageFor(m => m.homebannerImage)
+                        @*</div>*@
+                        <input type="submit" value="Submit" class="btn bg-primary" />
+                    </div>
+                </div>
+                <div>
+                    <p style="text-align:justify;">
+                        <img alt="" width=1000 height=160 src="/Uploads/HomeIndexImages/@Model.homebannerImage" style="float:left; padding:15px; " /> <font style="font-size:16px; ">
+                        </font>
+                    </p>
+
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
